@@ -3,16 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "DRDS Workshops – Research Methods Diagrams"
+  title: "Practical Research for Land Economy"
   navbar:
     left:
       - text: Home
         href: index.qmd
-      - text: Diagrams
+      - text: Research Process Diagrams
         href: diagrams.qmd
 
 format:
   html:
-    theme: cosmo
     toc: true
     mermaid: {}
