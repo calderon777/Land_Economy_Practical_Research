@@ -1,13 +1,97 @@
 ---
-title: "Welcome"
+title: "Welcome & Guidelines"
+subtitle: "Land Economy Practical Research"
 author: "Camilo Calderon-Morales, PhD"
 date: today
 ---
 
-# DRDS Workshops: Research Methods Diagrams
+Welcome to the PGR Dissertation Workshops. These sessions are **user-centred** and focus on the *real* issues Mphil researchers face while writing the dissertation — frequent questions, practical problems, and how to diagnose and improve drafts using good (and not-so-good) examples from past work at diverse universities.
 
-This mini-site includes translated and adapted diagrams of **Quantitative** and **Qualitative** research processes (inspired by Sampieri, Fernández-Collado, & Baptista Lucio, 8th ed.).
+::: callout-tip
+**How to use this site**  
+- Start with the brief **overview** below.  
+- skimming the **Workshop at a glance** table helps you plan your attendance.  
+- Bring a short excerpt of your current writing; most sessions include **live diagnosis** and applied activities.
+:::
 
-Use the **Diagrams** tab in the navigation bar to see both Mermaid flowcharts.
+---
 
-> Tip: You can copy/paste the Mermaid blocks into slides or other chapters of your Quarto book.
+## Workshops at a glance
+
+| # | Date (2025–26) | Focus | Notes |
+|---:|:---------------|:------|:------|
+| 1 | **Tue 4 Nov** | Research objective, questions, and problem framing | We’ll look at strong vs weak research questions and rationale.  |
+| 2 | **TBC** | Inside the literature review | Scope, search, theming, turning reading into writing.  |
+| 3 | **TBC** | Methods chapter setup | Paradigms, designs, and process (e.g., surveys, cases, longitudinal). |
+| 4 | **TBC** | Writing results & conclusions | What belongs in results vs. discussion; referencing; what goes to an appendix. |
+| 5 | **TBC** | Drop-in Q&A | Final polishing: intro, abstract, editorial control.|
+
+---
+
+## What you’ll actually do
+
+- Work through common stumbling blocks for dissertations (structure, argument, evidence, clarity).  
+- **Review excerpts from previous dissertations** together—what works, what doesn’t, and why. :contentReference[oaicite:8]{index=8}  
+- Apply checklists/templates to *your* text so you leave with concrete next steps.
+
+---
+
+## Workshop details & indicative content
+
+### Workshop 1 — Research Objective & Questions (7 Nov)
+- Research objective, research problem, rationale, and **well-formed RQs**.  
+- Sample dissertations: **LE471, LE400, LE468 (2017–18)**. :contentReference[oaicite:9]{index=9}
+
+### Workshop 2 — Literature Review (30 Jan)
+- From objective → RQs; what a literature review **is / is not**.  
+- Scope, search, read, **theme**, and **turn reading into writing**.  
+- Dissertations: **LE115, LE123, LE149, LE110 (2021)**. :contentReference[oaicite:10]{index=10}
+
+### Workshop 3 — Methods Chapter (6 Feb)
+- Paradigms (positivism, realism, interpretivism), logic (inductive/deductive), designs (experiments, surveys, case study, grounded theory, ethnography, action research), cross-sectional vs longitudinal; data collection and **method process**.  
+- Dissertations: **LE382, LE379, LE334 (2018–19)**. :contentReference[oaicite:11]{index=11}
+
+### Workshop 4 — Results, Conclusions, Referencing (13 Feb)
+- What belongs in results vs conclusions; **appropriate referencing**; when to move a table to the **appendix**.  
+- Dissertations: **LE221, LE201, LE296 (2021–22)**. 
+
+### Workshop 5 — Drop-in & Polishing (20 Feb)
+- Q&A and final shaping: **Introduction, Abstract, Editorial Control**.  
+- Dissertations: **LE702, LE682, LE635, LE697 (2023)**. 
+
+---
+
+## Logistics: booking & venue 
+- Bring a laptop, your most recent outline or 1–2 pages of writing, and any data/notes you want feedback on.
+
+---
+
+## Readings & helpful links
+
+A few useful pieces from the plan (plus DRDS resources):
+
+- Ivanochko, *Writing Research Questions*. Cambridge University Press (chapter). :contentReference[oaicite:15]{index=15}  
+- Brown (2007), supervising international masters students, *Journal of Further & Higher Education*. :contentReference[oaicite:16]{index=16}  
+- Pemberton (2012), a “how-to” guide for the thesis/dissertation process. :contentReference[oaicite:17]{index=17}  
+- Golding, Sharmini & Lazarovitch (2014), what examiners do / what students should know. :contentReference[oaicite:18]{index=18}  
+- Golding (2017), advice for writing a thesis (based on what examiners do). :contentReference[oaicite:19]{index=19}  
+- Royal Literary Fund: *What is a literature review?* :contentReference[oaicite:20]{index=20}
+
+> You can cite these formally using the project’s `references.bib` and `apa.csl` on any page.
+
+---
+
+## Quick checklist (bring this each time)
+
+- [ ] A short excerpt (or outline) of your dissertation chapter-in-progress  
+- [ ] One concrete question you want answered  
+- [ ] Any figures/tables you’re unsure about (move to appendix?)  
+- [ ] Your planned next step after the workshop
+
+---
+
+## Contact & support
+
+If you have accessibility needs or want tailored feedback (e.g., methods or data setup), email me ahead of time so I can prepare materials aligned to your topic.
+
+> **Booking:** Moodle/DRDS → “PGR Dissertation Workshops” → choose your slot. :contentReference[oaicite:21]{index=21}

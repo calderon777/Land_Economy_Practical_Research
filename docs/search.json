@@ -2,11 +2,81 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Welcome & Guidelines",
     "section": "",
-    "text": "1 DRDS Workshops: Research Methods Diagrams\nThis mini-site includes translated and adapted diagrams of Quantitative and Qualitative research processes (inspired by Sampieri, Fernández-Collado, & Baptista Lucio, 8th ed.).\nUse the Diagrams tab in the navigation bar to see both Mermaid flowcharts.\n\nTip: You can copy/paste the Mermaid blocks into slides or other chapters of your Quarto book.",
+    "text": "Welcome to the PGR Dissertation Workshops. These sessions are user-centred and focus on the real issues Mphil researchers face while writing the dissertation — frequent questions, practical problems, and how to diagnose and improve drafts using good (and not-so-good) examples from past work at diverse universities.",
     "crumbs": [
-      "Welcome"
+      "Welcome & Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#workshops-at-a-glance",
+    "href": "index.html#workshops-at-a-glance",
+    "title": "Welcome & Guidelines",
+    "section": "1 Workshops at a glance",
+    "text": "1 Workshops at a glance\n\n\n\n\n\n\n\n\n\n#\nDate (2025–26)\nFocus\nNotes\n\n\n\n\n1\nTue 4 Nov\nResearch objective, questions, and problem framing\nWe’ll look at strong vs weak research questions and rationale.\n\n\n2\nTBC\nInside the literature review\nScope, search, theming, turning reading into writing.\n\n\n3\nTBC\nMethods chapter setup\nParadigms, designs, and process (e.g., surveys, cases, longitudinal).\n\n\n4\nTBC\nWriting results & conclusions\nWhat belongs in results vs. discussion; referencing; what goes to an appendix.\n\n\n5\nTBC\nDrop-in Q&A\nFinal polishing: intro, abstract, editorial control.",
+    "crumbs": [
+      "Welcome & Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#what-youll-actually-do",
+    "href": "index.html#what-youll-actually-do",
+    "title": "Welcome & Guidelines",
+    "section": "2 What you’ll actually do",
+    "text": "2 What you’ll actually do\n\nWork through common stumbling blocks for dissertations (structure, argument, evidence, clarity).\n\nReview excerpts from previous dissertations together—what works, what doesn’t, and why. :contentReferenceoaicite:8\n\nApply checklists/templates to your text so you leave with concrete next steps.",
+    "crumbs": [
+      "Welcome & Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-details-indicative-content",
+    "href": "index.html#workshop-details-indicative-content",
+    "title": "Welcome & Guidelines",
+    "section": "3 Workshop details & indicative content",
+    "text": "3 Workshop details & indicative content\n\n3.1 Workshop 1 — Research Objective & Questions (7 Nov)\n\nResearch objective, research problem, rationale, and well-formed RQs.\n\nSample dissertations: LE471, LE400, LE468 (2017–18). :contentReferenceoaicite:9\n\n\n\n3.2 Workshop 2 — Literature Review (30 Jan)\n\nFrom objective → RQs; what a literature review is / is not.\n\nScope, search, read, theme, and turn reading into writing.\n\nDissertations: LE115, LE123, LE149, LE110 (2021). :contentReferenceoaicite:10\n\n\n\n3.3 Workshop 3 — Methods Chapter (6 Feb)\n\nParadigms (positivism, realism, interpretivism), logic (inductive/deductive), designs (experiments, surveys, case study, grounded theory, ethnography, action research), cross-sectional vs longitudinal; data collection and method process.\n\nDissertations: LE382, LE379, LE334 (2018–19). :contentReferenceoaicite:11\n\n\n\n3.4 Workshop 4 — Results, Conclusions, Referencing (13 Feb)\n\nWhat belongs in results vs conclusions; appropriate referencing; when to move a table to the appendix.\n\nDissertations: LE221, LE201, LE296 (2021–22).\n\n\n\n3.5 Workshop 5 — Drop-in & Polishing (20 Feb)\n\nQ&A and final shaping: Introduction, Abstract, Editorial Control.\n\nDissertations: LE702, LE682, LE635, LE697 (2023).",
+    "crumbs": [
+      "Welcome & Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#logistics-booking-venue",
+    "href": "index.html#logistics-booking-venue",
+    "title": "Welcome & Guidelines",
+    "section": "4 Logistics: booking & venue",
+    "text": "4 Logistics: booking & venue\n\nBring a laptop, your most recent outline or 1–2 pages of writing, and any data/notes you want feedback on.",
+    "crumbs": [
+      "Welcome & Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#readings-helpful-links",
+    "href": "index.html#readings-helpful-links",
+    "title": "Welcome & Guidelines",
+    "section": "5 Readings & helpful links",
+    "text": "5 Readings & helpful links\nA few useful pieces from the plan (plus DRDS resources):\n\nIvanochko, Writing Research Questions. Cambridge University Press (chapter). :contentReferenceoaicite:15\n\nBrown (2007), supervising international masters students, Journal of Further & Higher Education. :contentReferenceoaicite:16\n\nPemberton (2012), a “how-to” guide for the thesis/dissertation process. :contentReferenceoaicite:17\n\nGolding, Sharmini & Lazarovitch (2014), what examiners do / what students should know. :contentReferenceoaicite:18\n\nGolding (2017), advice for writing a thesis (based on what examiners do). :contentReferenceoaicite:19\n\nRoyal Literary Fund: What is a literature review? :contentReferenceoaicite:20\n\n\nYou can cite these formally using the project’s references.bib and apa.csl on any page.",
+    "crumbs": [
+      "Welcome & Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#quick-checklist-bring-this-each-time",
+    "href": "index.html#quick-checklist-bring-this-each-time",
+    "title": "Welcome & Guidelines",
+    "section": "6 Quick checklist (bring this each time)",
+    "text": "6 Quick checklist (bring this each time)\n\nA short excerpt (or outline) of your dissertation chapter-in-progress\n\nOne concrete question you want answered\n\nAny figures/tables you’re unsure about (move to appendix?)\n\nYour planned next step after the workshop",
+    "crumbs": [
+      "Welcome & Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#contact-support",
+    "href": "index.html#contact-support",
+    "title": "Welcome & Guidelines",
+    "section": "7 Contact & support",
+    "text": "7 Contact & support\nIf you have accessibility needs or want tailored feedback (e.g., methods or data setup), email me ahead of time so I can prepare materials aligned to your topic.\n\nBooking: Moodle/DRDS → “PGR Dissertation Workshops” → choose your slot. :contentReferenceoaicite:21",
+    "crumbs": [
+      "Welcome & Guidelines"
     ]
   },
   {
