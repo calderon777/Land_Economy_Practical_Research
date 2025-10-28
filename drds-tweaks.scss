@@ -1,0 +1,83 @@
+/*-------------------------------------------
+  drds-tweaks.scss  —  layered on top of Superhero
+  Tweak points are grouped in variables below.
+-------------------------------------------*/
+
+/*-- scss:defaults --*/
+$drds-sidebar-bg:   #0f2332;  /* darker left/right panels */
+$drds-text:         #e6eaf0;  /* light text */
+$drds-heading:      #5ecad6;  /* teal headings */
+$drds-toc-accent:   #00c2ad;  /* green accent bar/text for active ToC */
+$drds-code-bg:      #1f2227;  /* code block background */
+$drds-border-subtle: rgba(255,255,255,.12);
+
+/* You can nudge colors by changing the hexes above. */
+
+
+/*-- scss:rules --*/
+
+/* Headings: teal (keeps Superhero’s weight/size) */
+h1, h2, h3, h4, h5, h6 {
+  color: $drds-heading !important;
+}
+
+/* LEFT sidebar — darker than page, with clear text */
+#quarto-sidebar,
+nav#quarto-sidebar,
+.quarto-sidebar,
+aside.sidebar,
+.sidebar {
+  background-color: $drds-sidebar-bg !important;
+  color: $drds-text;
+  border-right: 1px solid $drds-border-subtle !important;
+}
+
+/* Sidebar links */
+#quarto-sidebar .nav-link,
+.sidebar .nav-link { color: $drds-text; }
+#quarto-sidebar .nav-link:hover,
+.sidebar .nav-link:hover { color: #ffffff; }
+#quarto-sidebar .nav-link.active,
+.sidebar .nav-link.active {
+  color: #ffffff;
+  border-left: 3px solid $drds-toc-accent;   /* subtle accent on active */
+}
+
+/* Sidebar search box contrast */
+#quarto-sidebar .search,
+.sidebar input[type="search"] {
+  background-color: rgba(255,255,255,.08);
+  color: $drds-text;
+}
+
+/* RIGHT ToC panel — match the darker tone + green accent */
+.page-toc,
+.margin-sidebar {
+  background-color: $drds-sidebar-bg !important;
+  color: $drds-text;
+  border-left: 1px solid $drds-border-subtle;
+}
+.page-toc .nav-link,
+.margin-sidebar .nav-link {
+  color: $drds-text;
+  border-left: 3px solid transparent;
+}
+.page-toc .nav-link:hover,
+.margin-sidebar .nav-link:hover { color: #ffffff; }
+.page-toc .nav-link.active,
+.margin-sidebar .nav-link.active {
+  color: $drds-toc-accent;
+  border-left-color: $drds-toc-accent;
+}
+
+/* Code blocks — readable on dark without colorful token schemes */
+pre.sourceCode, pre {
+  background-color: $drds-code-bg;
+  border: 1px solid rgba(255,255,255,.10);
+}
+pre code, code { color: $drds-text; }
+
+/* Callouts/cards subtle borders on dark */
+.callout, .card, table {
+  border-color: $drds-border-subtle;
+}

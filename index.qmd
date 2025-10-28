@@ -1,5 +1,7 @@
 ---
-title: Welcome
+title: "Welcome"
+author: "Camilo Calderon-Morales, PhD"
+date: today
 ---
 
 # DRDS Workshops: Research Methods Diagrams

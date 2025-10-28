@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Practical Research for Land Economy"
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - index.qmd
+      - diagrams.qmd
+
+metadata:
+  author: "Camilo Calderon-Morales, PhD"
+  date: today
+  subtitle: "Tools, Methods, and Applications"
+
+bibliography: [references.bib]
+csl: csl/apa.csl
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly   # "vapor", etc.
+    appearance:
+      default: dark
+      toggle: true    
+    code-copy: true
+    toc: true
+   # number-sections: true
+    
+    #df-print: paged
+    #downloads: [pdf]   # <- adds a “Download PDF” button
+  #pdf:
+   # documentclass: scrreprt
+    #number-sections: true
+    #include-in-header: preamble.tex
+
+execute:
+  echo: true
+  warning: false
+  message: false
+
+filters:
+  - quarto
+
+crossref:
+  fig-prefix: Figure
+  tbl-prefix: Table
+  eq-prefix: Equation
+
+editor: visual
