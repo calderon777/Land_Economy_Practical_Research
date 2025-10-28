@@ -4,14 +4,67 @@ project:
 
 website:
   title: "Practical Research for Land Economy"
-  navbar:
-    left:
-      - text: Home
-        href: index.qmd
-      - text: Research Process Diagrams
-        href: diagrams.qmd
+  subtitle: "Tools, Methods, and Applications"
+  author: Camilo Calderon-Morales, PhD
+  date: today
+  chapters:
+- index.qmd
+- preface.qmd
+- 01-overview.qmd
+- 02-research-questions.qmd
+- 03-data-sources.qmd
+- 04-measurement-metrics.qmd
+- 05-r-setup.qmd
+- 06-eda.qmd
+- 07-econometrics.qmd
+- 08-causal-inference.qmd
+- 09-spatial-analysis.qmd
+- 10-valuation-appraisal.qmd
+- 11-policy-evaluation.qmd
+- 12-project-management-ethics.qmd
+- 13-writing-replication.qmd
+- 14-case-studies.qmd
+- references.qmd
+appendices:
+- A-r-cheatsheet.qmd
+- B-dataset-notes.qmd
+
+language:
+title-block-author-single: "Author"
+
+
+bibliography: [references.bib]
+csl: apa.csl
+
 
 format:
-  html:
-    toc: true
-    mermaid: {}
+html:
+theme: cosmo
+code-tools: true
+toc: true
+toc-depth: 3
+number-sections: true
+df-print: paged
+pdf:
+documentclass: scrreprt
+number-sections: true
+include-in-header: preamble.tex
+
+
+execute:
+echo: true
+warning: false
+message: false
+
+
+filters:
+- quarto
+
+
+crossref:
+fig-prefix: Figure
+tbl-prefix: Table
+eq-prefix: Equation
+
+
+editor: visual
