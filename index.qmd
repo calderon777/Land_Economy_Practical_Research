@@ -1,0 +1,11 @@
+---
+title: Welcome
+---
+
+# DRDS Workshops: Research Methods Diagrams
+
+This mini-site includes translated and adapted diagrams of **Quantitative** and **Qualitative** research processes (inspired by Sampieri, Fernández-Collado, & Baptista Lucio, 8th ed.).
+
+Use the **Diagrams** tab in the navigation bar to see both Mermaid flowcharts.
+
+> Tip: You can copy/paste the Mermaid blocks into slides or other chapters of your Quarto book.

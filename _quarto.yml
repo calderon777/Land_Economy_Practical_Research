@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "DRDS Workshops – Research Methods Diagrams"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Diagrams
+        href: diagrams.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    mermaid: {}

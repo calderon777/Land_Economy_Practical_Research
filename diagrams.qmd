@@ -1,0 +1,40 @@
+---
+title: Quantitative & Qualitative Process (Mermaid)
+toc: true
+---
+
+## Quantitative Research Process (Linear Flow)
+
+```{mermaid}
+graph TD
+    A[Idea and Problem Identification] --> B[Literature Review and Theoretical Framework]
+    B --> C[Formulation of Hypotheses]
+    C --> D[Research Design]
+    D --> E[Definition of Population and Sample]
+    E --> F[Data Collection]
+    F --> G[Data Processing and Statistical Analysis]
+    G --> H[Interpretation of Results]
+    H --> I[Conclusions, Implications, and Reporting]
+
+    classDef main fill:#E6F3FF,stroke:#2A6EBB,stroke-width:2px,color:#000,font-weight:bold;
+    class A,B,C,D,E,F,G,H,I main;
+```
+
+## Qualitative Research Process (Iterative Cycle)
+
+```{mermaid}
+graph LR
+    A[Initial Idea or Topic of Interest] --> B[Context and Literature Exploration]
+    B --> C[Formulation of Research Focus or Questions]
+    C --> D[Flexible and Emergent Design Development]
+    D --> E[Selection of Participants or Context]
+    E --> F[Data Collection]
+    F --> G[Data Analysis]
+    G --> H[Categories and Theme Development]
+    H --> I[Interpretation and Theory Building]
+    I --> J[Reporting and Reflection]
+    J --> A[Cycle Repeats as Insights Emerge]
+
+    classDef cycle fill:#FFF3E6,stroke:#D17A00,stroke-width:2px,color:#000,font-weight:bold;
+    class A,B,C,D,E,F,G,H,I,J cycle;
+```
