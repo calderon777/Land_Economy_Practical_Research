@@ -9,25 +9,25 @@ website:
   date: today
   chapters:
 - index.qmd
-- preface.qmd
-- 01-overview.qmd
-- 02-research-questions.qmd
-- 03-data-sources.qmd
-- 04-measurement-metrics.qmd
-- 05-r-setup.qmd
-- 06-eda.qmd
-- 07-econometrics.qmd
-- 08-causal-inference.qmd
-- 09-spatial-analysis.qmd
-- 10-valuation-appraisal.qmd
-- 11-policy-evaluation.qmd
-- 12-project-management-ethics.qmd
-- 13-writing-replication.qmd
-- 14-case-studies.qmd
-- references.qmd
+#- preface.qmd
+#- 01-overview.qmd
+#- 02-research-questions.qmd
+#- 03-data-sources.qmd
+#- 04-measurement-metrics.qmd
+#- 05-r-setup.qmd
+#- 06-eda.qmd
+#- 07-econometrics.qmd
+#- 08-causal-inference.qmd
+#- 09-spatial-analysis.qmd
+#- 10-valuation-appraisal.qmd
+#- 11-policy-evaluation.qmd
+#- 12-project-management-ethics.qmd
+#- 13-writing-replication.qmd
+#- 14-case-studies.qmd
+#- references.qmd
 appendices:
-- A-r-cheatsheet.qmd
-- B-dataset-notes.qmd
+#- A-r-cheatsheet.qmd
+#- B-dataset-notes.qmd
 
 language:
 title-block-author-single: "Author"
