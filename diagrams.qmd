@@ -1,6 +1,6 @@
 ---
 title: Quantitative & Qualitative Process (Mermaid)
-toc: true
+
 ---
 
 ## Quantitative Research Process (Linear Flow)
