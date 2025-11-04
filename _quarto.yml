@@ -30,11 +30,11 @@ format:
     code-tools: true          # small copy/expand tools on code blocks
     toc: true
     toc-depth: 3
-    number-sections: true
+    number-sections: false
     highlight-style: monochrome   # simple readable tokens on dark
   pdf:
     documentclass: scrreprt
-    number-sections: true
+    number-sections: false
     include-in-header: preamble.tex  # keep if you use it for PDF
 
 execute:

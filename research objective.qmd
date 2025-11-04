@@ -1,15 +1,12 @@
 ---
 title: "Research Workshop: Dissertation Objective"
 author: "Camilo Calderon"
-format:
-  html:
-    theme: cosmo
+date: today
 ---
-
 
 # Summary of Research Methods in Urban Design: A Framework for Researching the Performance and Resilience of Places (Lehmann 2023)
 
-## 1. Introduction and purpose
+## Section 1. Introduction and purpose
 
 Steffen Lehmann opens by noting how research in urban design remains under‐theorised compared with, say, engineering or the natural sciences. He quotes the Oxford definition: “research is the systematic investigation … in order to establish facts and reach new conclusions.” 
 
@@ -101,7 +98,7 @@ He also reminds that urban designers, given their visual and spatial training, a
 ## 3.1. Task
 Pick a place (or hypothetical neighbourhood) and outline their research question, method choice (quant/qual/mixed), and visualisation/analysis strategy.
 
-# 4. Practice‐Oriented Research with Impact
+## 4. Practice‐Oriented Research with Impact
 
 The link between research and practice: how can research in urban design have real-world impact? He describes “practice‐oriented research‐by‐design” as a promising approach. 
 
@@ -127,7 +124,7 @@ Lehmann uses examples from leading practices (e.g., research‐driven architectu
 
 *For those new to research, this means your methods should not just yield interesting findings—but findings that practitioners can act upon.*
 
-# 5. What is performance? What is resilience?
+## 5. What is performance? What is resilience?
 
 Performance: how well a place or neighbourhood fulfils its functions, how efficient it is in resource use (energy, water), how comfortable, healthy, accessible it is, how well it meets its design intent. 
 
@@ -135,7 +132,7 @@ Resilience: the adaptive capacity of a place to respond to disruptions (climate 
 
 He emphasises that high‐performance urban design integrates a lifecycle perspective: resource efficiency, operational performance, durability, adaptability. 
 
-## 5.1 Metrics and measurement
+### 5.1 Metrics and measurement
 
 Lehmann provides examples of measurable indicators:
 
@@ -155,7 +152,7 @@ He also touches on more qualitative performance dimensions: user satisfaction, m
 He flags the urban heat island effect, loss of green space, and how nature‐based solutions (green roofs, walls, sustainable drainage) serve both performance and resilience aims. 
  
 
-## 5.2 Challenges and issues
+### 5.2 Challenges and issues
 
 Lehmann flags several practical and methodological challenges:
 
@@ -170,108 +167,99 @@ Lehmann flags several practical and methodological challenges:
 
 Lehmann argues for a shift towards more systematic, analytical, critical methodologies. 
  
-## 5.3 TASK
+### 5.3 TASK
 Identify such methodological threats (bias, data availability, transferability) and discuss how to mitigate them.
 
-6. Four Selected Examples of Regenerative Design Research
+## 6. Four Selected Examples of Regenerative Design Research
 
 **Project 1**: A new public park on top of a freeway tunnel, reconnecting two communities through landscape and cultural facilities. **Research question**: How can a resource‐efficient park bring people together for community wellness? Research approach: qualitative precedent study, thematic analysis. 
  
 
-Project 2: An urban food hub – vertical food production & distribution centre with drone delivery port. **Research question**: How can urban farming and new tech create a food-distribution centre and promote sustainability, local access? Research approach: extensive precedent studies and contextual observation. 
+**Project 2**: An urban food hub – vertical food production & distribution centre with drone delivery port. **Research question**: How can urban farming and new tech create a food-distribution centre and promote sustainability, local access? Research approach: extensive precedent studies and contextual observation. 
  
 
-Project 3: A new gateway to the Las Vegas Arts District: a public plaza + cultural facility. Research question: How can art and architecture catalyse regeneration in the arts district? Research approach: qualitative observational data of social behaviour, interactions, spatial organisation. 
+**Project 3**: A new gateway to the Las Vegas Arts District: a public plaza + cultural facility. Research question: How can art and architecture catalyse regeneration in the arts district? Research approach: qualitative observational data of social behaviour, interactions, spatial organisation. 
  
 
-Project 4: “Neo‐Metabolism”: modular micro-housing for urban infill. Research question: What is the most efficient/flexible approach for revitalising vacant sites downtown using low-carbon, off-site manufactured construction? Research approach: immersive, evolving design research process; field immersion. 
+**Project 4**: “Neo‐Metabolism”: modular micro-housing for urban infill. Research question: What is the most efficient/flexible approach for revitalising vacant sites downtown using low-carbon, off-site manufactured construction? Research approach: immersive, evolving design research process; field immersion. 
  
 
 Lehmann uses these to show how research questions, methods, data, design and outcomes can be combined in an urban-design studio environment. Importantly: he notes that each of these is context‐specific, and that no single study “solves” the whole problem — research is part of a continuing inquiry. 
  
+### 6.1. TASK
+Participants must consider a comparable “mini‐design research” for their city/context.
 
-For your session, you might consider either walking through one of these examples in detail (perhaps visually) or inviting participants to consider a comparable “mini‐design research” for their city/context.
-
-7. Conclusions and implications
-
-Lehmann draws together the implications:
+## 7. Conclusions and implications
 
 There is a growing need for research‐led and design‐informed methods in urban design, especially given pressing challenges: climate change, urban population growth, resource constraints, health & well‐being, equity. 
  
-
 To address these, urban design must become more evidence-based: linking theory, method, data, design decision. He argues that the profession must shift from “creating architectural objects” to “systems thinking, research‐informed design”. 
  
-
 Urban designers must become lifelong learners and research‐capable professionals: willing to collect, analyse, visualise data, reflect on outcomes, iterate. 
- 
 
 More comparative case-studies, mixed‐method research, longitudinal monitoring of performance/resilience are needed to build the evidence base for the future of urban design. 
- 
 
 He emphasises that even good design remains a “journey of enquiry”: research does not yield final, definitive answers, but enables better questions, better understanding, better design decisions. 
- 
 
-For your workshop, you could highlight: the takeaway here is that research methods are not optional but foundational to designing places that perform and endure.
+**For your workshop, you could highlight: **the takeaway here is that research methods are not optional but foundational to designing places that perform and endure.**
 
-8. Relevance for your audience & workshop (linking to R/new-reseachers)
-
-Since you are addressing an audience new to R and emerging researchers in your DMU Investing Club context and broader data skills, here are some tailored reflections:
+## 8. Relevance for PGR (linking to new-reseachers)
 
 Research question → method → data → analysis is a chain that also applies if one uses R (or any statistical software). Although Lehmann’s examples are urban design–centric, the logic is the same, e.g., you might ask: Does a neighbourhood with higher tree canopy cover have lower surface‐temperature anomalies during heat-waves compared to similar density areas? Then you collect microclimate data, tree-canopy GIS layers, user surveys, analyse in R, visualise findings, perhaps compare multiple cities.
 
 Emphasise mixed methods. Urban design deals with spatial, social, environmental data – so combining e.g., DTS microclimate data + user satisfaction data + GIS metrics is powerful. Your audience might feel comfortable with quantitative (R) but need encouragement to incorporate the qualitative side.
 
-Visualisation and storytelling matter. Urban designers are good at spatial diagrams; you can link that to R’s capabilities (ggplot2, sf, raster) so that quantitative findings become actionable.
+Visualisation and storytelling matter. Urban designers are good at spatial diagrams; you can link that to R’s capabilities (ggplot2, sf, raster or other apps) so that quantitative findings become actionable.
 
-Performance/resilience metrics: some of Lehmann’s listed metrics (EUI, WUI, embodied carbon, operational carbon, heat‐island effect) can inspire variable choices or control variables in research projects (e.g., you might proxy tree cover, building density, material age, etc).
+**Performance/resilience metrics:** some of Lehmann’s listed metrics (EUI, WUI, embodied carbon, operational carbon, heat‐island effect) can inspire variable choices or control variables in research projects (e.g., you might proxy tree cover, building density, material age, etc).
 
-Research into place performance has relevance beyond architecture: for example, economic geographers, urban economists, sustainability analysts (which fits your subject lead role in Economics). So bridging urban design methods with economics (cost-benefit, productivity, well-being) is possible.
+**Research into place performance has relevance beyond architecture:** for example, economic geographers, urban economists, sustainability analysts (which fits your subject lead role in Economics). So bridging urban design methods with economics (cost-benefit, productivity, well-being) is possible.
 
-Real-world impact: Lehmann’s emphasis on practice‐oriented research means your workshop could include a segment: “how will our research inform decisions (policy, design, investment)?” This can resonate for students thinking of careers in design, planning, data science, sustainability.
+**Real-world impact:** Lehmann’s emphasis on practice‐oriented research means “how will our research inform decisions (policy, design, investment)?” This can resonate for careers in design, planning, data science, sustainability, etc.
 
-Finally: limit scope, be realistic. Lehmann notes that research problems may be overly ambitious; he advises narrowing or breaking down into sub-problems. Good advice especially for beginners/new researchers. 
+**limit scope**: be realistic. Lehmann notes that research problems may be overly ambitious; he advises narrowing or breaking down into sub-problems. Good advice especially for beginners/new researchers. 
  
 
-9. Workshop structure suggestion using the paper
+## 9. Final suggestiona using the paper
 
 Here’s a proposed flow you could use:
 
-Introduction – hook your audience (“Why does a place perform? Can we test it?”) and reference Lehmann’s framing of performance & resilience.
+Introduction – hook your audience (“Why does a place perform? Can we test it?”).
 
-Define key terms – performance, resilience, research methods (qual/quant/mixed) as per Lehmann.
+**Define key terms** – performance, resilience, research methods (qual/quant/mixed)
 
-Methodological framework – go through Lehmann’s roadmap: literature/precedent → research question → methods → data → analysis → reporting. Use a slide with the steps.
+**Methodological framework** – go through Lehmann’s roadmap: research idea → literature/precedent → research question → methods → data → analysis → reporting. Use a slide with the steps.
 
-Metrics & measurement – discuss specific measurable variables (tree cover, energy use, carbon, user comfort) from the paper. Possibly an interactive brainstorm: what metrics would you use for your local urban place?
+**Metrics & measurement** – discuss specific measurable variables (tree cover, energy use, carbon, user comfort) from the paper. Possibly an interactive brainstorm: what metrics would you use for your local urban place?
 
-Case-studies review – present the four examples from Las Vegas used by Lehmann. Discuss how each followed the framework. Maybe split participants into small groups and assign one case each to review.
+**Case-studies review** – see the four examples from Las Vegas used by Lehmann. 
 
-Hands-on mini exercise – participants pick a local place (or hypothetical) and outline: research question + methods + type of data + how they'd analyse in R + how they'd visualise/report findings + what impact/decision it might inform.
+**Common pitfalls & tips** – highlight what Lehmann flags (data availability, transferability, context specificity, qualitative vs quantitative challenges).
 
-Common pitfalls & tips – highlight what Lehmann flags (data availability, transferability, context specificity, qualitative vs quantitative challenges).
+**Linking to your field** – tie home to economics/Investing Club/data science: e.g., how place performance metrics might matter for real-estate investment, urban regeneration economics, sustainability investing.
 
-Linking to your field – tie home to economics/Investing Club/data science: e.g., how place performance metrics might matter for real-estate investment, urban regeneration economics, sustainability investing.
+**Wrap-up** 
 
-Wrap-up – summarise key messages from Lehmann: (a) rigorous research in urban design matters for performance/resilience; (b) methods must be selected thoughtfully; (c) bridging design and data is essential; (d) this is relevant for emerging researchers and practitioners alike.
+(a) rigorous research in urban design matters for performance/resilience; (b) methods must be selected thoughtfully; (c) bridging design and data is essential; (d) this is relevant for emerging researchers and practitioners alike.
 
 Q&A / reflection – invite participants to reflect on: “What surprised you from Lehmann’s framework?” or “What’s one method you might include in your next project?”
-
-10. Key take-home messages
-
-Urban design research must bridge intuition/creativity and systematic data‐driven inquiry.
-
-Performance (how well a place functions) and resilience (how well it adapts/responds) are central to evaluating places today.
-
-Choosing methods is not just a technical detail—it shapes what you can say and what your work can influence.
-
-Visualisation, interdisciplinary thinking, and linking research to practice are critical.
-
-For beginners/new researchers: start with a clear question, appropriate methods, manageable scope, and think about actionable outcomes.
 
 
 # References
 Reading: Lehmann, S. (2023). Research Methods in Urban Design: A Framework for Researching the Performance and Resilience of Places. Buildings, 13(6), 1548. https:// /10.3390/buildings13061548 
 
+
+# Section 2 - AI feedback
+
+# Learning Outcomes
+
+By the end of this session, participants will be able to:
+
+Formulate clear and researchable objectives.
+
+Critically assess how well objectives align with ideas and justifications.
+
+Use a chatbot as a formative feedback tool to refine their research design.
 
 <div class="text-center">
   <a class="btn btn-primary btn-lg" href="https://chatgpt.com/g/g-6909ee8d3f908191b00c90541fbeaf81-dr-cam1-0-robot" target="_blank" rel="noopener">
