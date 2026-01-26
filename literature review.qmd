@@ -1,0 +1,156 @@
+---
+title: "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+author: "Camilo Calderon"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+# What a literature review is (and what it is not)
+
+A **literature review (LR)** is a structured and critical account of what credible research has established about your topic, **organised around an argument** that supports your dissertation’s *research objective(s)*.
+
+It is not a “tour” of papers. It is a **reasoned map**: what we know, how we know it, what we do *not* know, and why your project is a logical next step.
+
+## The three jobs of a literature review
+
+A strong LR typically does three things simultaneously:
+
+1.  **Defines the intellectual problem-space** (concepts, theories, debates).
+2.  **Synthesises evidence and approaches** (patterns, tensions, boundary conditions).
+3.  **Justifies your research objective(s)** (gap + relevance + feasibility).
+
+::: callout-important
+## Your north star
+
+Every paragraph should be able to answer:
+
+**“How does this revolves around or how connects with my research objective?”**
+:::
+
+## What a literature review is not
+
+-   A bibliography with sentences attached\
+-   A set of summaries (“Smith (2020) says…, Jones (2021) says…”)\
+-   A place to show you have read “a lot”\
+-   A proxy for your methodology or results
+
+# From description to analysis: the mindset shift
+
+Students often treat literature as *authority* (“Paper X says Y, therefore…”).\
+Researchers treat literature as **claims under conditions**:
+
+-   **What is the claim?**
+-   **What is the evidence and method?**
+-   **Under what assumptions does it hold?**
+-   **Where might it fail (context, measurement, identification, scope)?**
+-   **How does it relate to other findings (agreement, tension, complementarity)?**
+-   **What does this imply for my objective and design?**
+
+## The “analysis verbs” that change your writing
+
+When you write, aim to *do* something with the literature. Use verbs that signal analytical moves:
+
+-   **Contrasts** (A emphasises X, whereas B emphasises Y)
+-   **Qualifies** (the effect holds *when / if / provided that…*)
+-   **Interrogates** (questions assumptions, measures, identification)
+-   **Extends** (applies ideas to a new context / population / time)
+-   **Integrates** (combines two strands into a coherent framing)
+-   **Disentangles** (separates mechanism from correlation)
+
+::: callout-tip
+## A quick self-check
+
+If your paragraph contains only verbs like *describes, reports, notes, states*, you are probably summarising rather than analysing.
+:::
+
+# Interactive tutorial
+
+## Task 1 — Spot the difference: summary vs analysis
+
+Read the two versions below. Which one is analytical, and why?
+
+### Version A (mostly summary)
+
+> Several studies examine the impact of transport accessibility on land values. Smith (2019) finds that areas closer to stations have higher prices. Jones (2020) reports similar results using a different dataset. Patel (2021) also shows that transport upgrades increase local prices.
+
+### Version B (analysis + relevance)
+
+> Evidence generally supports a positive association between transport accessibility and land values, but estimates vary with how accessibility is measured and with local supply constraints. While Smith (2019) reports larger effects near stations, Jones (2020) finds attenuated impacts once new housing supply is controlled for, suggesting that **supply elasticity mediates capitalisation**. This matters for my objective—estimating accessibility effects in \[YOUR CITY/REGION\]—because local planning constraints may bias naïve estimates upward. I therefore prioritise studies that explicitly address supply conditions and identification strategy.
+
+**Your output (3 bullet points):** - What analytical move(s) appear in Version B that are absent in Version A? - What is the implied mechanism? - Where is the link to a research objective?
+
+## Task 2 — One-sentence synthesis drill
+
+Pick **three** papers you kept. Write **one sentence** that relates them.
+
+Constraints: - You must include at least one contrast word (**whereas**, **however**, **in contrast**). - You must include at least one qualifier (**in contexts where**, **conditional on**, **provided that**). - No citations allowed in the first draft (focus on thinking).
+
+Then, add citations in the second draft.
+
+## Task 3 — Name the gap type (stop vague “there is little literature” claims)
+
+Choose one paragraph from your current LR draft (or a sample you provide).
+
+Identify the most relevant gap type:
+
+-   Theoretical gap (missing mechanism or concept)
+-   Methodological gap (identification, measurement, data limitations)
+-   Contextual gap (different city/country/institutional setting)
+-   Temporal gap (outdated period; post-policy change)
+-   Population/heterogeneity gap (who is affected; distributional effects)
+
+Write a 3–4 line **gap statement** that: 1. Names the gap type, 2. Explains why it matters, 3. Links directly to your objective.
+
+## Task 4 — Paragraph surgery (rewrite with three constraints)
+
+Take a descriptive paragraph and rewrite it using:
+
+-   **1 analytical verb** (e.g., *qualifies, contrasts, interrogates*)
+-   **1 explicit mechanism** (the “because”)
+-   **1 bridge sentence** back to your objective
+
+Keep the paragraph within **120–160 words**.
+
+## Literature review “quality checklist”
+
+Use this as a self-audit before you submit a draft.
+
+## Structure and argument
+
+-   I have clear themes (not a chronological list of papers).
+-   Each theme ends with a *so what?* sentence (implication for objective).
+-   I have at least one explicit debate/tension (not false consensus).
+
+## Evidence and methods
+
+-   I distinguish correlation from causal evidence where relevant.
+-   I mention key methodological differences that explain disagreement.
+-   I avoid over-claiming beyond the evidence.
+
+## Voice and positioning
+
+-   I use analytical verbs and qualifiers.
+-   I explain why I include sources (relevance), not just what they say.
+-   I identify what my study will contribute (gap + how I address it).
+
+# References
+
+Booth, W. C., Colomb, G. G. & Williams, J. M. (2016). *The Craft of Research* (4th ed.). University of Chicago Press.
+
+Hart, C. (1998). *Doing a Literature Review: Releasing the Social Science Research Imagination*. SAGE.
+
+Machi, L. A. & McEvoy, B. T. (2016). *The Literature Review: Six Steps to Success* (3rd ed.). Corwin.
+
+Okoli, C. (2015). A guide to conducting a standalone systematic literature review. *Communications of the Association for Information Systems*, 37, 879–910.
+
+Ridley, D. (2012). *The Literature Review: A Step-by-Step Guide for Students* (2nd ed.). SAGE.
+
+Snyder, H. (2019). Literature review as a research methodology: An overview and guidelines. *Journal of Business Research*, 104, 333–339.
+
+Torraco, R. J. (2005). Writing integrative literature reviews: Guidelines and examples. *Human Resource Development Review*, 4(3), 356–367.
+
+Webster, J. & Watson, R. T. (2002). Analyzing the past to prepare for the future: Writing a literature review. *MIS Quarterly*, 26(2), xiii–xxiii.

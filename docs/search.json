@@ -110,6 +110,90 @@
     ]
   },
   {
+    "objectID": "literature review.html",
+    "href": "literature review.html",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "",
+    "text": "A literature review (LR) is a structured and critical account of what credible research has established about your topic, organised around an argument that supports your dissertation’s research objective(s).\nIt is not a “tour” of papers. It is a reasoned map: what we know, how we know it, what we do not know, and why your project is a logical next step.\n\n\nA strong LR typically does three things simultaneously:\n\nDefines the intellectual problem-space (concepts, theories, debates).\nSynthesises evidence and approaches (patterns, tensions, boundary conditions).\nJustifies your research objective(s) (gap + relevance + feasibility).\n\n\n\n\n\n\n\nYour north star\n\n\n\nEvery paragraph should be able to answer:\n“How does this revolves around or how connects with my research objective?”\n\n\n\n\n\n\nA bibliography with sentences attached\n\nA set of summaries (“Smith (2020) says…, Jones (2021) says…”)\n\nA place to show you have read “a lot”\n\nA proxy for your methodology or results"
+  },
+  {
+    "objectID": "literature review.html#the-three-jobs-of-a-literature-review",
+    "href": "literature review.html#the-three-jobs-of-a-literature-review",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "",
+    "text": "A strong LR typically does three things simultaneously:\n\nDefines the intellectual problem-space (concepts, theories, debates).\nSynthesises evidence and approaches (patterns, tensions, boundary conditions).\nJustifies your research objective(s) (gap + relevance + feasibility).\n\n\n\n\n\n\n\nYour north star\n\n\n\nEvery paragraph should be able to answer:\n“How does this revolves around or how connects with my research objective?”"
+  },
+  {
+    "objectID": "literature review.html#what-a-literature-review-is-not",
+    "href": "literature review.html#what-a-literature-review-is-not",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "",
+    "text": "A bibliography with sentences attached\n\nA set of summaries (“Smith (2020) says…, Jones (2021) says…”)\n\nA place to show you have read “a lot”\n\nA proxy for your methodology or results"
+  },
+  {
+    "objectID": "literature review.html#the-analysis-verbs-that-change-your-writing",
+    "href": "literature review.html#the-analysis-verbs-that-change-your-writing",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "2.1 The “analysis verbs” that change your writing",
+    "text": "2.1 The “analysis verbs” that change your writing\nWhen you write, aim to do something with the literature. Use verbs that signal analytical moves:\n\nContrasts (A emphasises X, whereas B emphasises Y)\nQualifies (the effect holds when / if / provided that…)\nInterrogates (questions assumptions, measures, identification)\nExtends (applies ideas to a new context / population / time)\nIntegrates (combines two strands into a coherent framing)\nDisentangles (separates mechanism from correlation)\n\n\n\n\n\n\n\nA quick self-check\n\n\n\nIf your paragraph contains only verbs like describes, reports, notes, states, you are probably summarising rather than analysing."
+  },
+  {
+    "objectID": "literature review.html#task-1-spot-the-difference-summary-vs-analysis",
+    "href": "literature review.html#task-1-spot-the-difference-summary-vs-analysis",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.1 Task 1 — Spot the difference: summary vs analysis",
+    "text": "3.1 Task 1 — Spot the difference: summary vs analysis\nRead the two versions below. Which one is analytical, and why?\n\n3.1.1 Version A (mostly summary)\n\nSeveral studies examine the impact of transport accessibility on land values. Smith (2019) finds that areas closer to stations have higher prices. Jones (2020) reports similar results using a different dataset. Patel (2021) also shows that transport upgrades increase local prices.\n\n\n\n3.1.2 Version B (analysis + relevance)\n\nEvidence generally supports a positive association between transport accessibility and land values, but estimates vary with how accessibility is measured and with local supply constraints. While Smith (2019) reports larger effects near stations, Jones (2020) finds attenuated impacts once new housing supply is controlled for, suggesting that supply elasticity mediates capitalisation. This matters for my objective—estimating accessibility effects in [YOUR CITY/REGION]—because local planning constraints may bias naïve estimates upward. I therefore prioritise studies that explicitly address supply conditions and identification strategy.\n\nYour output (3 bullet points): - What analytical move(s) appear in Version B that are absent in Version A? - What is the implied mechanism? - Where is the link to a research objective?"
+  },
+  {
+    "objectID": "literature review.html#task-2-one-sentence-synthesis-drill",
+    "href": "literature review.html#task-2-one-sentence-synthesis-drill",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.2 Task 2 — One-sentence synthesis drill",
+    "text": "3.2 Task 2 — One-sentence synthesis drill\nPick three papers you kept. Write one sentence that relates them.\nConstraints: - You must include at least one contrast word (whereas, however, in contrast). - You must include at least one qualifier (in contexts where, conditional on, provided that). - No citations allowed in the first draft (focus on thinking).\nThen, add citations in the second draft."
+  },
+  {
+    "objectID": "literature review.html#task-3-name-the-gap-type-stop-vague-there-is-little-literature-claims",
+    "href": "literature review.html#task-3-name-the-gap-type-stop-vague-there-is-little-literature-claims",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.3 Task 3 — Name the gap type (stop vague “there is little literature” claims)",
+    "text": "3.3 Task 3 — Name the gap type (stop vague “there is little literature” claims)\nChoose one paragraph from your current LR draft (or a sample you provide).\nIdentify the most relevant gap type:\n\nTheoretical gap (missing mechanism or concept)\nMethodological gap (identification, measurement, data limitations)\nContextual gap (different city/country/institutional setting)\nTemporal gap (outdated period; post-policy change)\nPopulation/heterogeneity gap (who is affected; distributional effects)\n\nWrite a 3–4 line gap statement that: 1. Names the gap type, 2. Explains why it matters, 3. Links directly to your objective."
+  },
+  {
+    "objectID": "literature review.html#task-4-paragraph-surgery-rewrite-with-three-constraints",
+    "href": "literature review.html#task-4-paragraph-surgery-rewrite-with-three-constraints",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.4 Task 4 — Paragraph surgery (rewrite with three constraints)",
+    "text": "3.4 Task 4 — Paragraph surgery (rewrite with three constraints)\nTake a descriptive paragraph and rewrite it using:\n\n1 analytical verb (e.g., qualifies, contrasts, interrogates)\n1 explicit mechanism (the “because”)\n1 bridge sentence back to your objective\n\nKeep the paragraph within 120–160 words."
+  },
+  {
+    "objectID": "literature review.html#literature-review-quality-checklist",
+    "href": "literature review.html#literature-review-quality-checklist",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.5 Literature review “quality checklist”",
+    "text": "3.5 Literature review “quality checklist”\nUse this as a self-audit before you submit a draft."
+  },
+  {
+    "objectID": "literature review.html#structure-and-argument",
+    "href": "literature review.html#structure-and-argument",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.6 Structure and argument",
+    "text": "3.6 Structure and argument\n\nI have clear themes (not a chronological list of papers).\nEach theme ends with a so what? sentence (implication for objective).\nI have at least one explicit debate/tension (not false consensus)."
+  },
+  {
+    "objectID": "literature review.html#evidence-and-methods",
+    "href": "literature review.html#evidence-and-methods",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.7 Evidence and methods",
+    "text": "3.7 Evidence and methods\n\nI distinguish correlation from causal evidence where relevant.\nI mention key methodological differences that explain disagreement.\nI avoid over-claiming beyond the evidence."
+  },
+  {
+    "objectID": "literature review.html#voice-and-positioning",
+    "href": "literature review.html#voice-and-positioning",
+    "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
+    "section": "3.8 Voice and positioning",
+    "text": "3.8 Voice and positioning\n\nI use analytical verbs and qualifiers.\nI explain why I include sources (relevance), not just what they say.\nI identify what my study will contribute (gap + how I address it)."
+  },
+  {
     "objectID": "diagrams.html",
     "href": "diagrams.html",
     "title": "Quantitative & Qualitative Process (Mermaid)",
@@ -209,5 +293,54 @@
     "crumbs": [
       "Welcome & Guidelines"
     ]
+  },
+  {
+    "objectID": "literature_review_exemplars.html",
+    "href": "literature_review_exemplars.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "literature_review_exemplars.html#task-1-spot-the-difference-summary-vs-analysis",
+    "href": "literature_review_exemplars.html#task-1-spot-the-difference-summary-vs-analysis",
+    "title": "",
+    "section": "Task 1 — Spot the difference: summary vs analysis",
+    "text": "Task 1 — Spot the difference: summary vs analysis\n\nExemplar (descriptive vs analytical use of literature)\nSource: Lumbe, L. (2021). The contribution of social housing as physical capital addressed in the “Smart City Wien Framework” to sustainable livelihoods.\n\n“The definitions of ‘smart city’ could not be more different (Ponting, 2013)… Hence, there is no universally accepted description of this notion. For the purposes of this dissertation, Toli and Murtagh’s (2020) characterisation will be applied…” (Literature Review, pp. 7–8).\n\nWhy this is useful\nThis passage demonstrates careful coverage of definitions but only a light analytical intervention. It helps illustrate the boundary between high-quality description and explicit critical analysis.\n\nYour task - Identify which sentences summarise existing work. - Identify where the author makes an analytical decision. - Rewrite one sentence to make the author’s judgement explicit."
+  },
+  {
+    "objectID": "literature_review_exemplars.html#task-2-relevance-filter-build-judgement-not-volume",
+    "href": "literature_review_exemplars.html#task-2-relevance-filter-build-judgement-not-volume",
+    "title": "",
+    "section": "Task 2 — Relevance filter (build judgement, not volume)",
+    "text": "Task 2 — Relevance filter (build judgement, not volume)\n\nExemplar (relevance-driven literature review)\nSource: Bendavid, I. (2021). How travellers’ behaviour evolves with changes in shared e-scooter prices?\n\n“E-scooters may be an effective solution to urban congestion and the last-mile problem. However, action must be taken for this new transport mode to better complement, rather than compete with sustainable modes of transport… This section will draw the evolution of research on micro-mobility, e-scooters and the microeconomics and marketing tools used in this paper.” (Literature Review, p. 7).\n\nWhy this is useful\nThe author clearly filters the literature through the research objective, demonstrating that relevance is defined by the research question, not by topic popularity.\n\nYour task - Identify which strands of literature are prioritised. - Identify at least one plausible strand that is implicitly excluded. - Explain how this filtering supports the research objective."
+  },
+  {
+    "objectID": "literature_review_exemplars.html#task-3-one-sentence-synthesis-drill",
+    "href": "literature_review_exemplars.html#task-3-one-sentence-synthesis-drill",
+    "title": "",
+    "section": "Task 3 — One-sentence synthesis drill",
+    "text": "Task 3 — One-sentence synthesis drill\n\nExemplar (synthesis across authors)\nSource: Macpherson-Smith, E. (2021). Can urban regeneration unlock opportunities for women?\n\n“Early feminist urban planning literature… was primarily focused on the needs of white middle-class women in the suburbs… Contemporary research led by Beebeejaun (2017) has instead attempted to reach historically marginalised women with a focus on intersectionality.” (Literature Review, pp. 7–8).\n\nWhy this is useful\nThis excerpt groups authors by intellectual position and evolution, rather than listing them individually. It is a clear example of synthesis.\n\nYour task - Identify the organising principle used to group authors. - Write a one-sentence synthesis capturing the evolution of the debate. - Add a qualifier explaining why this evolution matters for the dissertation."
+  },
+  {
+    "objectID": "literature_review_exemplars.html#task-4-name-the-gap-type-avoid-vague-gap-statements",
+    "href": "literature_review_exemplars.html#task-4-name-the-gap-type-avoid-vague-gap-statements",
+    "title": "",
+    "section": "Task 4 — Name the gap type (avoid vague gap statements)",
+    "text": "Task 4 — Name the gap type (avoid vague gap statements)\n\nExemplar (a defensible research gap)\nSource: Macpherson-Smith, E. (2021). Can urban regeneration unlock opportunities for women?\n\n“Despite this recent emergence there are still significant gaps in feminist urban planning literature, with notable omissions in the study of regeneration and the lived experiences of inner-city women.” (Literature Review, p. 7).\n\nWhy this is useful\nThe gap is defined as a systematic omission, not an absence of literature. This makes the gap credible and defensible.\n\nYour task - Identify the type of gap (contextual, population, methodological). - Explain why this gap matters for the research objective. - Rewrite the gap in one sentence without using “there is little research”."
+  },
+  {
+    "objectID": "literature_review_exemplars.html#task-5-from-literature-to-research-design",
+    "href": "literature_review_exemplars.html#task-5-from-literature-to-research-design",
+    "title": "",
+    "section": "Task 5 — From literature to research design",
+    "text": "Task 5 — From literature to research design\n\nExemplar (literature review shaping method)\nSource: Popham, E. (2021). Legislating for Sustainable Development Using Spatial Justice Principles.\n\n“The aim of this literature review is to identify the spatial justice principles that are important to disrupt cycles of inequality… In order to establish an analytical framework… it is important to understand the key principles which represent spatial justice.” (Literature Review, pp. 8–9).\n\nWhy this is useful\nThis passage shows the literature review actively constructing the research framework, rather than serving as background.\n\nYour task - Identify which concepts are carried forward into the framework. - Explain how theory is operationalised. - Suggest one alternative theory and how it would alter the research design."
+  },
+  {
+    "objectID": "literature_review_exemplars.html#key-takeaway",
+    "href": "literature_review_exemplars.html#key-takeaway",
+    "title": "",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nA strong literature review is not about demonstrating how much you have read. It is about demonstrating judgement: what matters, why it matters, and how it justifies the research you are about to undertake."
   }
 ]
