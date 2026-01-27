@@ -67,23 +67,85 @@ When you write, aim to *do* something with the literature. Use verbs that signal
 If your paragraph contains only verbs like *describes, reports, notes, states*, you are probably summarising rather than analysing.
 :::
 
-# Interactive tutorial
+# Interactive tutorial with exemplars
+
+This workshop develops your understanding of what a literature review *does*, beyond summarising existing research. The focus is on **critical analysis, relevance, and alignment with research objectives**, using real MPhil dissertations as exemplars.
+
+------------------------------------------------------------------------
 
 ## Task 1 — Spot the difference: summary vs analysis
 
+::: callout-example
+### Exemplar (descriptive vs analytical use of literature)
+
+**Source:** Lumbe, L. (2021). *The contribution of social housing as physical capital addressed in the "Smart City Wien Framework" to sustainable livelihoods.*
+
+> *"The definitions of 'smart city' could not be more different (Ponting, 2013)… Hence, there is no universally accepted description of this notion. For the purposes of this dissertation, Toli and Murtagh's (2020) characterisation will be applied…"* (Literature Review, pp. 7–8).
+
+**Why this is useful**\
+This passage demonstrates careful coverage of definitions but only a **light analytical intervention**. It helps illustrate the boundary between high-quality description and explicit critical analysis.
+:::
+
+**Your task** 
+- Identify which sentences summarise existing work. 
+- Identify where the author makes an analytical decision. 
+- Rewrite one sentence to make the author's judgement explicit.
+
+### Compare with these versions
+
 Read the two versions below. Which one is analytical, and why?
 
-### Version A (mostly summary)
+**Version A (mostly summary)**
 
 > Several studies examine the impact of transport accessibility on land values. Smith (2019) finds that areas closer to stations have higher prices. Jones (2020) reports similar results using a different dataset. Patel (2021) also shows that transport upgrades increase local prices.
 
-### Version B (analysis + relevance)
+**Version B (analysis + relevance)**
 
 > Evidence generally supports a positive association between transport accessibility and land values, but estimates vary with how accessibility is measured and with local supply constraints. While Smith (2019) reports larger effects near stations, Jones (2020) finds attenuated impacts once new housing supply is controlled for, suggesting that **supply elasticity mediates capitalisation**. This matters for my objective—estimating accessibility effects in \[YOUR CITY/REGION\]—because local planning constraints may bias naïve estimates upward. I therefore prioritise studies that explicitly address supply conditions and identification strategy.
 
 **Your output (3 bullet points):** - What analytical move(s) appear in Version B that are absent in Version A? - What is the implied mechanism? - Where is the link to a research objective?
 
-## Task 2 — One-sentence synthesis drill
+------------------------------------------------------------------------
+
+## Task 2 — Relevance filter (build judgement, not volume)
+
+::: callout-example
+### Exemplar (relevance-driven literature review)
+
+**Source:** Bendavid, I. (2021). *How travellers' behaviour evolves with changes in shared e-scooter prices?*
+
+> *"E-scooters may be an effective solution to urban congestion and the last-mile problem. However, action must be taken for this new transport mode to better complement, rather than compete with sustainable modes of transport… This section will draw the evolution of research on micro-mobility, e-scooters and the microeconomics and marketing tools used in this paper."* (Literature Review, p. 7).
+
+**Why this is useful**\
+The author clearly filters the literature through the **research objective**, demonstrating that relevance is defined by the research question, not by topic popularity.
+:::
+
+**Your task** 
+- Identify which strands of literature are prioritised. 
+- Identify at least one plausible strand that is implicitly excluded. 
+- Explain how this filtering supports the research objective.
+
+------------------------------------------------------------------------
+
+## Task 3 — One-sentence synthesis drill
+
+::: callout-example
+### Exemplar (synthesis across authors)
+
+**Source:** Macpherson-Smith, E. (2021). *Can urban regeneration unlock opportunities for women?*
+
+> *"Early feminist urban planning literature… was primarily focused on the needs of white middle-class women in the suburbs… Contemporary research led by Beebeejaun (2017) has instead attempted to reach historically marginalised women with a focus on intersectionality."* (Literature Review, pp. 7–8).
+
+**Why this is useful**\
+This excerpt groups authors by **intellectual position and evolution**, rather than listing them individually. It is a clear example of synthesis.
+:::
+
+**Your task** 
+- Identify the organising principle used to group authors. 
+- Write a one-sentence synthesis capturing the evolution of the debate. 
+- Add a qualifier explaining why this evolution matters for the dissertation.
+
+### Practice exercise
 
 Pick **three** papers you kept. Write **one sentence** that relates them.
 
@@ -105,7 +167,45 @@ Identify the most relevant gap type:
 
 Write a 3–4 line **gap statement** that: 1. Names the gap type, 2. Explains why it matters, 3. Links directly to your objective.
 
-## Task 4 — Paragraph surgery (rewrite with three constraints)
+::: callout-example
+### Exemplar (a defensible research gap)
+
+**Source:** Macpherson-Smith, E. (2021). *Can urban regeneration unlock opportunities for women?*
+
+> *"Despite this recent emergence there are still significant gaps in feminist urban planning literature, with notable omissions in the study of regeneration and the lived experiences of inner-city women."* (Literature Review, p. 7).
+
+**Why this is useful**\
+The gap is defined as a **systematic omission**, not an absence of literature. This makes the gap credible and defensible.
+:::
+
+**Additional task** 
+- Identify the type of gap (contextual, population, methodological). 
+- Explain why this gap matters for the research objective. 
+- Rewrite the gap in one sentence without using "there is little research".
+
+------------------------------------------------------------------------
+
+## Task 5 — From literature to research design
+
+::: callout-example
+### Exemplar (literature review shaping method)
+
+**Source:** Popham, E. (2021). *Legislating for Sustainable Development Using Spatial Justice Principles.*
+
+> *"The aim of this literature review is to identify the spatial justice principles that are important to disrupt cycles of inequality… In order to establish an analytical framework… it is important to understand the key principles which represent spatial justice."* (Literature Review, pp. 8–9).
+
+**Why this is useful**\
+This passage shows the literature review **actively constructing the research framework**, rather than serving as background.
+:::
+
+**Your task** 
+- Identify which concepts are carried forward into the framework. 
+- Explain how theory is operationalised. 
+- Suggest one alternative theory and how it would alter the research design.
+
+------------------------------------------------------------------------
+
+## Task 6 — Paragraph surgery (rewrite with three constraints)
 
 Take a descriptive paragraph and rewrite it using:
 
@@ -114,7 +214,11 @@ Take a descriptive paragraph and rewrite it using:
 -   **1 bridge sentence** back to your objective
 
 Keep the paragraph within **120–160 words**.
+::: callout-tip
+## Key takeaway
 
+A strong literature review is not about demonstrating how much you have read. It is about demonstrating **judgement**: what matters, why it matters, and how it justifies the research you are about to undertake.
+:::
 ## Literature review “quality checklist”
 
 Use this as a self-audit before you submit a draft.
@@ -136,6 +240,293 @@ Use this as a self-audit before you submit a draft.
 -   I use analytical verbs and qualifiers.
 -   I explain why I include sources (relevance), not just what they say.
 -   I identify what my study will contribute (gap + how I address it).
+
+
+## The pipeline at a glance
+
+This is the workflow I use when writing a literature review while remaining compliant with University regulations on AI use.  
+The guiding principle is that **AI may support research and reflection, but all assessed writing must be your own original work**.
+
+The core stages are:
+
+- **Collect widely**
+- **Filter systematically**
+- **Read deeply (a minority of papers)**
+- **Map concepts and gaps**
+- **Design structure before writing**
+- **Write your own content**
+- **Review twice: diagnostic AI checks → full human review**
+
+![](images/lit-review-pipeline.png){fig-alt="Literature review pipeline: Find → Filter → Full read → Map concepts/gaps → Structure/Content → AI review → Manual review" width=100%}
+
+::: callout-important
+## Non-negotiable rule (assessment context)
+
+AI tools may be used **only as an aid to research, organisation, or reflection**.  
+Under no circumstances should **AI-generated text, structure, analysis, or paraphrased output** be incorporated into assessed work.
+
+You remain fully responsible for:
+
+- accuracy of claims,
+- interpretation of evidence,
+- correct citation,
+- coherence and logic linking the literature to your research objective.
+:::
+
+---
+
+## Step 1 — Find literature (collect widely)
+
+### Goal
+Build a **broad, traceable, and defensible** pool of candidate literature before deciding what merits close reading.
+
+### Tools (examples)
+- **Reference manager:** Zotero  
+- **Search & discovery:** Google Scholar, Elicit, Consensus, Litmaps  
+- **Network discovery:** Connected Papers, Research Rabbit  
+- **Search/reading interfaces:** SciSpace  
+
+### What to do
+- Create a dedicated reference manager collection (e.g. *Dissertation – Literature Review*).
+- Search using **topic terms + synonyms + methodological keywords**.
+- Save all potentially relevant papers at this stage (do not over-filter early).
+- Record basic metadata:
+  - topic/theme,
+  - methods,
+  - data/context,
+  - key constructs or variables.
+
+::: callout-note
+## Old-school search still matters
+Google Scholar remains valuable when you want full control over keywords and search logic.  
+AI tools complement this — they do not replace it.
+:::
+
+### Optional exercise (planning only)
+- Draft three keyword strings:
+  - core topic terms,
+  - methods/approaches,
+  - context (place, time, population).
+- Use them in **Google Scholar and one AI-assisted search tool**, then import results into your reference manager.
+
+---
+
+## Step 2 — Filter literature (triage, not judgement)
+
+### Goal
+Reduce the reading burden by identifying papers **most likely** to matter for your research objective.
+
+### Tools (examples)
+- SciSpace (relevance indicators, filters)
+- Consensus (key papers, contributors, evidence clusters)
+- NotebookLM (querying your uploaded references)
+
+### What to do
+- Start from the full reference manager collection.
+- Use tools to assist screening, considering:
+  - topical relevance,
+  - alignment with your objective,
+  - foundational vs. recent contributions.
+- Create three lists:
+  - papers for full reading,
+  - papers to revisit later,
+  - papers excluded from this project.
+
+::: callout-note
+## AI assists triage, not judgement
+AI can speed up screening, but you must still check titles, abstracts, and — where needed — methods or results sections yourself.
+:::
+
+---
+
+## Step 3 — Full read (deep engagement with a subset)
+
+### Goal
+Develop genuine understanding of the field without attempting to read everything.
+
+### Rule of thumb
+After filtering, fully read **around 20–25%** of the shortlisted papers (those with highest signal value).
+
+### During a full read, extract (in your own notes)
+- research question and motivation,
+- theoretical mechanisms,
+- data and empirical strategy,
+- strengths and limitations,
+- key findings,
+- contribution relative to the literature,
+- unresolved issues or gaps.
+
+::: callout-warning
+## This step cannot be automated
+Skipping full reading risks misinterpretation, weak synthesis, and factual errors — all common triggers for academic misconduct investigations.
+:::
+
+---
+
+## Step 4 — Mapping concepts and gaps
+
+### Goal
+Transform a list of papers into a structured understanding of:
+- key concepts,
+- thematic groupings,
+- debates,
+- and research gaps linked to your objective.
+
+### Tools (examples)
+- NotebookLM (concept mapping / visual organisation)
+- Consensus (coverage matrices and gap indicators)
+
+### What to do
+- Build a conceptual map based on papers you have read.
+- Group literature by:
+  - concepts or mechanisms,
+  - methodological approaches,
+  - contexts or datasets.
+- Identify:
+  - areas of dense evidence,
+  - contradictions,
+  - under-explored questions.
+
+### Deliverable
+A **provisional set of themes and candidate sections**, written in your own words.
+
+---
+
+## Step 5 — Structure (design before drafting)
+
+### Goal
+Design the **architecture** of the literature review before writing prose.
+
+### How to use AI (permitted)
+AI may be used **only to prompt reflection**, not to generate a structure to reuse.
+
+**Acceptable use**
+- asking for questions you should consider,
+- checking whether common elements are missing.
+
+**Not acceptable**
+- copying AI-generated outlines into assessed work.
+
+::: callout-important
+## Structure must be yours
+You must be able to justify:
+- why sections exist,
+- why they appear in that order,
+- how each section supports the research objective.
+:::
+
+### Example structure (illustrative, not prescriptive)
+1. Framing the problem and relevance of the literature  
+2. Core concept/theme A  
+3. Core concept/theme B  
+4. Methodological or measurement issues (if relevant)  
+5. Debates and contested findings  
+6. Research gaps and positioning of your study  
+7. Summary and transition to research design  
+
+---
+
+## Step 6 — Content (authorial control)
+
+### Goal
+Write the literature review **entirely in your own words**, grounded in sources you have read.
+
+### Permitted AI support
+- clarifying terminology,
+- checking logical consistency,
+- identifying where citations may be needed,
+- locating additional sources you then read yourself.
+
+### Writing discipline
+Each paragraph should contain:
+- a clear claim,
+- supporting evidence (citations),
+- interpretation or comparison,
+- explicit relevance to the research objective.
+
+::: callout-note
+## Literature reviews are analytical, not descriptive
+Avoid paper-by-paper summaries. Focus on synthesis, comparison, and evaluation.
+:::
+
+---
+
+## Step 7 — Review (diagnostic AI → manual review)
+
+### Diagnostic AI checks (permitted)
+AI may be used to **flag risks**, not to rewrite text.
+
+Examples of acceptable checks:
+- alignment with learning outcomes,
+- missing citations,
+- unclear definitions,
+- logical gaps.
+
+::: callout-tip
+## Treat AI feedback as a checklist
+AI suggestions are prompts for your judgement — not instructions to implement verbatim.
+:::
+
+### Manual review (mandatory)
+- Read every sentence critically.
+- Check coherence, argument flow, and citation accuracy.
+- Proofread carefully.
+
+### Two manual lenses
+- **Academic rigor:** is the argument defensible and evidence-based?  
+- **Readability:** is the text clear, precise, and error-free?
+
+A useful technique is reading paragraphs **backwards**, which helps identify errors obscured by narrative flow.
+
+::: callout-warning
+## Peer review strengthens integrity
+Feedback from supervisors, postdocs, or senior PhD students can reveal weaknesses early and reduce risk later.
+:::
+
+---
+
+## Permitted prompt examples (planning and checking only)
+
+### Prompt A — Screening checklist
+> My research objective is **[insert]**.  
+> Based on these titles/abstracts **[paste]**, generate a **screening checklist** I should apply myself when deciding what to read fully.  
+> Do not summarise or evaluate individual papers.
+
+### Prompt B — Structure reflection
+> My research objective is **[insert]**.  
+> Generate **questions** that would help me design a logical literature review structure.  
+> Do not propose headings or an outline.
+
+### Prompt C — Risk audit
+> Here is my draft and the marking criteria.  
+> Identify **risk areas only** (e.g. unsupported claims, missing citations, unclear positioning).  
+> Do not rewrite or suggest replacement text.
+
+---
+
+## What “success” looks like
+
+A strong literature review:
+- is organised around **themes and mechanisms**,
+- demonstrates **critical evaluation**,
+- clearly supports the research objective,
+- ends with a well-justified research gap.
+
+---
+
+## Academic integrity reminder
+
+- AI output must **never** appear in assessed work (directly or paraphrased).
+- AI may be used for research assistance, planning, and self-checking only.
+- All claims must be verified against original sources.
+- You may be required to declare AI use and defend your work in a viva.
+
+::: callout-important
+## Policy takes precedence
+Always follow module-specific and departmental guidance.  
+If in doubt, seek clarification **before** submission.
+:::
+
 
 # References
 
