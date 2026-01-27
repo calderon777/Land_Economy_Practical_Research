@@ -11,6 +11,7 @@ website:
     search: true
     contents:
       - index.qmd
+      - literature review.qmd
       - research objective.qmd
 
 # Global metadata (applies to all pages unless overridden)

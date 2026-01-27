@@ -144,7 +144,7 @@
     "href": "index.html#workshop-details-indicative-content",
     "title": "Welcome & Guidelines",
     "section": "Workshop details & indicative content",
-    "text": "Workshop details & indicative content\n\nWorkshop 1 — Research Objective & Questions (7 Nov)\n\nResearch objective, research problem, rationale, and well-formed RQs.\n\nSample dissertations: LE471, LE400, LE468 (2017–18). :contentReferenceoaicite:9\n\n\n\nWorkshop 2 — Literature Review (30 Jan)\n\nFrom objective → RQs; what a literature review is / is not.\n\nScope, search, read, theme, and turn reading into writing.\n\nDissertations: LE115, LE123, LE149, LE110 (2021). :contentReferenceoaicite:10\n\n\n\nWorkshop 3 — Methods Chapter (6 Feb)\n\nParadigms (positivism, realism, interpretivism), logic (inductive/deductive), designs (experiments, surveys, case study, grounded theory, ethnography, action research), cross-sectional vs longitudinal; data collection and method process.\n\nDissertations: LE382, LE379, LE334 (2018–19). :contentReferenceoaicite:11\n\n\n\nWorkshop 4 — Results, Conclusions, Referencing (13 Feb)\n\nWhat belongs in results vs conclusions; appropriate referencing; when to move a table to the appendix.\n\nDissertations: LE221, LE201, LE296 (2021–22).\n\n\n\nWorkshop 5 — Drop-in & Polishing (20 Feb)\n\nQ&A and final shaping: Introduction, Abstract, Editorial Control.\n\nDissertations: LE702, LE682, LE635, LE697 (2023).",
+    "text": "Workshop details & indicative content\n\nWorkshop 1 — Research Objective & Questions (7 Nov)\n\nResearch objective, research problem, rationale, and well-formed RQs.\n\nSample dissertations: LE471, LE400, LE468 (2017–18). :contentReferenceoaicite:9\n\n\n\nWorkshop 2 — Literature Review (30 Jan)\n\nFrom objective → RQs; what a literature review is / is not. See the Literature Review workshop page.\n\nScope, search, read, theme, and turn reading into writing.\n\nDissertations: LE115, LE123, LE149, LE110 (2021). :contentReferenceoaicite:10\n\n\n\nWorkshop 3 — Methods Chapter (6 Feb)\n\nParadigms (positivism, realism, interpretivism), logic (inductive/deductive), designs (experiments, surveys, case study, grounded theory, ethnography, action research), cross-sectional vs longitudinal; data collection and method process.\n\nDissertations: LE382, LE379, LE334 (2018–19). :contentReferenceoaicite:11\n\n\n\nWorkshop 4 — Results, Conclusions, Referencing (13 Feb)\n\nWhat belongs in results vs conclusions; appropriate referencing; when to move a table to the appendix.\n\nDissertations: LE221, LE201, LE296 (2021–22).\n\n\n\nWorkshop 5 — Drop-in & Polishing (20 Feb)\n\nQ&A and final shaping: Introduction, Abstract, Editorial Control.\n\nDissertations: LE702, LE682, LE635, LE697 (2023).",
     "crumbs": [
       "Welcome & Guidelines"
     ]
@@ -215,167 +215,239 @@
     "href": "literature review.html",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "",
-    "text": "A literature review (LR) is a structured and critical account of what credible research has established about your topic, organised around an argument that supports your dissertation’s research objective(s).\nIt is not a “tour” of papers. It is a reasoned map: what we know, how we know it, what we do not know, and why your project is a logical next step.\n\n\nA strong LR typically does three things simultaneously:\n\nDefines the intellectual problem-space (concepts, theories, debates).\nSynthesises evidence and approaches (patterns, tensions, boundary conditions).\nJustifies your research objective(s) (gap + relevance + feasibility).\n\n\n\n\n\n\n\nYour north star\n\n\n\nEvery paragraph should be able to answer:\n“How does this revolves around or how connects with my research objective?”\n\n\n\n\n\n\nA bibliography with sentences attached\n\nA set of summaries (“Smith (2020) says…, Jones (2021) says…”)\n\nA place to show you have read “a lot”\n\nA proxy for your methodology or results"
+    "text": "A literature review (LR) is a structured and critical account of what credible research has established about your topic, organised around an argument that supports your dissertation’s research objective(s).\nIt is not a “tour” of papers. It is a reasoned map: what we know, how we know it, what we do not know, and why your project is a logical next step.\n\n\nA strong LR typically does three things simultaneously:\n\nDefines the intellectual problem-space (concepts, theories, debates).\nSynthesises evidence and approaches (patterns, tensions, boundary conditions).\nJustifies your research objective(s) (gap + relevance + feasibility).\n\n\n\n\n\n\n\nYour north star\n\n\n\nEvery paragraph should be able to answer:\n“How does this revolves around or how connects with my research objective?”\n\n\n\n\n\n\nA bibliography with sentences attached\n\nA set of summaries (“Smith (2020) says…, Jones (2021) says…”)\n\nA place to show you have read “a lot”\n\nA proxy for your methodology or results",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#the-three-jobs-of-a-literature-review",
     "href": "literature review.html#the-three-jobs-of-a-literature-review",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "",
-    "text": "A strong LR typically does three things simultaneously:\n\nDefines the intellectual problem-space (concepts, theories, debates).\nSynthesises evidence and approaches (patterns, tensions, boundary conditions).\nJustifies your research objective(s) (gap + relevance + feasibility).\n\n\n\n\n\n\n\nYour north star\n\n\n\nEvery paragraph should be able to answer:\n“How does this revolves around or how connects with my research objective?”"
+    "text": "A strong LR typically does three things simultaneously:\n\nDefines the intellectual problem-space (concepts, theories, debates).\nSynthesises evidence and approaches (patterns, tensions, boundary conditions).\nJustifies your research objective(s) (gap + relevance + feasibility).\n\n\n\n\n\n\n\nYour north star\n\n\n\nEvery paragraph should be able to answer:\n“How does this revolves around or how connects with my research objective?”",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#what-a-literature-review-is-not",
     "href": "literature review.html#what-a-literature-review-is-not",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "",
-    "text": "A bibliography with sentences attached\n\nA set of summaries (“Smith (2020) says…, Jones (2021) says…”)\n\nA place to show you have read “a lot”\n\nA proxy for your methodology or results"
+    "text": "A bibliography with sentences attached\n\nA set of summaries (“Smith (2020) says…, Jones (2021) says…”)\n\nA place to show you have read “a lot”\n\nA proxy for your methodology or results",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#the-analysis-verbs-that-change-your-writing",
     "href": "literature review.html#the-analysis-verbs-that-change-your-writing",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "2.1 The “analysis verbs” that change your writing",
-    "text": "2.1 The “analysis verbs” that change your writing\nWhen you write, aim to do something with the literature. Use verbs that signal analytical moves:\n\nContrasts (A emphasises X, whereas B emphasises Y)\nQualifies (the effect holds when / if / provided that…)\nInterrogates (questions assumptions, measures, identification)\nExtends (applies ideas to a new context / population / time)\nIntegrates (combines two strands into a coherent framing)\nDisentangles (separates mechanism from correlation)\n\n\n\n\n\n\n\nA quick self-check\n\n\n\nIf your paragraph contains only verbs like describes, reports, notes, states, you are probably summarising rather than analysing."
+    "text": "2.1 The “analysis verbs” that change your writing\nWhen you write, aim to do something with the literature. Use verbs that signal analytical moves:\n\nContrasts (A emphasises X, whereas B emphasises Y)\nQualifies (the effect holds when / if / provided that…)\nInterrogates (questions assumptions, measures, identification)\nExtends (applies ideas to a new context / population / time)\nIntegrates (combines two strands into a coherent framing)\nDisentangles (separates mechanism from correlation)\n\n\n\n\n\n\n\nA quick self-check\n\n\n\nIf your paragraph contains only verbs like describes, reports, notes, states, you are probably summarising rather than analysing.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#task-1-spot-the-difference-summary-vs-analysis",
     "href": "literature review.html#task-1-spot-the-difference-summary-vs-analysis",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.1 Task 1 — Spot the difference: summary vs analysis",
-    "text": "3.1 Task 1 — Spot the difference: summary vs analysis\n\n3.1.1 Exemplar (descriptive vs analytical use of literature)\nSource: Lumbe, L. (2021). The contribution of social housing as physical capital addressed in the “Smart City Wien Framework” to sustainable livelihoods.\n\n“The definitions of ‘smart city’ could not be more different (Ponting, 2013)… Hence, there is no universally accepted description of this notion. For the purposes of this dissertation, Toli and Murtagh’s (2020) characterisation will be applied…” (Literature Review, pp. 7–8).\n\nWhy this is useful\nThis passage demonstrates careful coverage of definitions but only a light analytical intervention. It helps illustrate the boundary between high-quality description and explicit critical analysis.\n\nYour task - Identify which sentences summarise existing work. - Identify where the author makes an analytical decision. - Rewrite one sentence to make the author’s judgement explicit.\n\n3.1.2 Compare with these versions\nRead the two versions below. Which one is analytical, and why?\nVersion A (mostly summary)\n\nSeveral studies examine the impact of transport accessibility on land values. Smith (2019) finds that areas closer to stations have higher prices. Jones (2020) reports similar results using a different dataset. Patel (2021) also shows that transport upgrades increase local prices.\n\nVersion B (analysis + relevance)\n\nEvidence generally supports a positive association between transport accessibility and land values, but estimates vary with how accessibility is measured and with local supply constraints. While Smith (2019) reports larger effects near stations, Jones (2020) finds attenuated impacts once new housing supply is controlled for, suggesting that supply elasticity mediates capitalisation. This matters for my objective—estimating accessibility effects in [YOUR CITY/REGION]—because local planning constraints may bias naïve estimates upward. I therefore prioritise studies that explicitly address supply conditions and identification strategy.\n\nYour output (3 bullet points): - What analytical move(s) appear in Version B that are absent in Version A? - What is the implied mechanism? - Where is the link to a research objective?"
+    "text": "3.1 Task 1 — Spot the difference: summary vs analysis\n\n3.1.1 Exemplar (descriptive vs analytical use of literature)\nSource: Lumbe, L. (2021). The contribution of social housing as physical capital addressed in the “Smart City Wien Framework” to sustainable livelihoods.\n\n“The definitions of ‘smart city’ could not be more different (Ponting, 2013)… Hence, there is no universally accepted description of this notion. For the purposes of this dissertation, Toli and Murtagh’s (2020) characterisation will be applied…” (Literature Review, pp. 7–8).\n\nWhy this is useful\nThis passage demonstrates careful coverage of definitions but only a light analytical intervention. It helps illustrate the boundary between high-quality description and explicit critical analysis.\n\nYour task - Identify which sentences summarise existing work. - Identify where the author makes an analytical decision. - Rewrite one sentence to make the author’s judgement explicit.\n\n3.1.2 Compare with these versions\nRead the two versions below. Which one is analytical, and why?\nVersion A (mostly summary)\n\nSeveral studies examine the impact of transport accessibility on land values. Smith (2019) finds that areas closer to stations have higher prices. Jones (2020) reports similar results using a different dataset. Patel (2021) also shows that transport upgrades increase local prices.\n\nVersion B (analysis + relevance)\n\nEvidence generally supports a positive association between transport accessibility and land values, but estimates vary with how accessibility is measured and with local supply constraints. While Smith (2019) reports larger effects near stations, Jones (2020) finds attenuated impacts once new housing supply is controlled for, suggesting that supply elasticity mediates capitalisation. This matters for my objective—estimating accessibility effects in [YOUR CITY/REGION]—because local planning constraints may bias naïve estimates upward. I therefore prioritise studies that explicitly address supply conditions and identification strategy.\n\nYour output (3 bullet points): - What analytical move(s) appear in Version B that are absent in Version A? - What is the implied mechanism? - Where is the link to a research objective?",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#task-2-relevance-filter-build-judgement-not-volume",
     "href": "literature review.html#task-2-relevance-filter-build-judgement-not-volume",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.2 Task 2 — Relevance filter (build judgement, not volume)",
-    "text": "3.2 Task 2 — Relevance filter (build judgement, not volume)\n\n3.2.1 Exemplar (relevance-driven literature review)\nSource: Bendavid, I. (2021). How travellers’ behaviour evolves with changes in shared e-scooter prices?\n\n“E-scooters may be an effective solution to urban congestion and the last-mile problem. However, action must be taken for this new transport mode to better complement, rather than compete with sustainable modes of transport… This section will draw the evolution of research on micro-mobility, e-scooters and the microeconomics and marketing tools used in this paper.” (Literature Review, p. 7).\n\nWhy this is useful\nThe author clearly filters the literature through the research objective, demonstrating that relevance is defined by the research question, not by topic popularity.\n\nYour task - Identify which strands of literature are prioritised. - Identify at least one plausible strand that is implicitly excluded. - Explain how this filtering supports the research objective."
+    "text": "3.2 Task 2 — Relevance filter (build judgement, not volume)\n\n3.2.1 Exemplar (relevance-driven literature review)\nSource: Bendavid, I. (2021). How travellers’ behaviour evolves with changes in shared e-scooter prices?\n\n“E-scooters may be an effective solution to urban congestion and the last-mile problem. However, action must be taken for this new transport mode to better complement, rather than compete with sustainable modes of transport… This section will draw the evolution of research on micro-mobility, e-scooters and the microeconomics and marketing tools used in this paper.” (Literature Review, p. 7).\n\nWhy this is useful\nThe author clearly filters the literature through the research objective, demonstrating that relevance is defined by the research question, not by topic popularity.\n\nYour task - Identify which strands of literature are prioritised. - Identify at least one plausible strand that is implicitly excluded. - Explain how this filtering supports the research objective.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#task-3-one-sentence-synthesis-drill",
     "href": "literature review.html#task-3-one-sentence-synthesis-drill",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.3 Task 3 — One-sentence synthesis drill",
-    "text": "3.3 Task 3 — One-sentence synthesis drill\n\n3.3.1 Exemplar (synthesis across authors)\nSource: Macpherson-Smith, E. (2021). Can urban regeneration unlock opportunities for women?\n\n“Early feminist urban planning literature… was primarily focused on the needs of white middle-class women in the suburbs… Contemporary research led by Beebeejaun (2017) has instead attempted to reach historically marginalised women with a focus on intersectionality.” (Literature Review, pp. 7–8).\n\nWhy this is useful\nThis excerpt groups authors by intellectual position and evolution, rather than listing them individually. It is a clear example of synthesis.\n\nYour task - Identify the organising principle used to group authors. - Write a one-sentence synthesis capturing the evolution of the debate. - Add a qualifier explaining why this evolution matters for the dissertation.\n\n3.3.2 Practice exercise\nPick three papers you kept. Write one sentence that relates them.\nConstraints: - You must include at least one contrast word (whereas, however, in contrast). - You must include at least one qualifier (in contexts where, conditional on, provided that). - No citations allowed in the first draft (focus on thinking).\nThen, add citations in the second draft."
+    "text": "3.3 Task 3 — One-sentence synthesis drill\n\n3.3.1 Exemplar (synthesis across authors)\nSource: Macpherson-Smith, E. (2021). Can urban regeneration unlock opportunities for women?\n\n“Early feminist urban planning literature… was primarily focused on the needs of white middle-class women in the suburbs… Contemporary research led by Beebeejaun (2017) has instead attempted to reach historically marginalised women with a focus on intersectionality.” (Literature Review, pp. 7–8).\n\nWhy this is useful\nThis excerpt groups authors by intellectual position and evolution, rather than listing them individually. It is a clear example of synthesis.\n\nYour task - Identify the organising principle used to group authors. - Write a one-sentence synthesis capturing the evolution of the debate. - Add a qualifier explaining why this evolution matters for the dissertation.\n\n3.3.2 Practice exercise\nPick three papers you kept. Write one sentence that relates them.\nConstraints: - You must include at least one contrast word (whereas, however, in contrast). - You must include at least one qualifier (in contexts where, conditional on, provided that). - No citations allowed in the first draft (focus on thinking).\nThen, add citations in the second draft.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#task-3-name-the-gap-type-stop-vague-there-is-little-literature-claims",
     "href": "literature review.html#task-3-name-the-gap-type-stop-vague-there-is-little-literature-claims",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.4 Task 3 — Name the gap type (stop vague “there is little literature” claims)",
-    "text": "3.4 Task 3 — Name the gap type (stop vague “there is little literature” claims)\nChoose one paragraph from your current LR draft (or a sample you provide).\nIdentify the most relevant gap type:\n\nTheoretical gap (missing mechanism or concept)\nMethodological gap (identification, measurement, data limitations)\nContextual gap (different city/country/institutional setting)\nTemporal gap (outdated period; post-policy change)\nPopulation/heterogeneity gap (who is affected; distributional effects)\n\nWrite a 3–4 line gap statement that: 1. Names the gap type, 2. Explains why it matters, 3. Links directly to your objective.\n\n3.4.1 Exemplar (a defensible research gap)\nSource: Macpherson-Smith, E. (2021). Can urban regeneration unlock opportunities for women?\n\n“Despite this recent emergence there are still significant gaps in feminist urban planning literature, with notable omissions in the study of regeneration and the lived experiences of inner-city women.” (Literature Review, p. 7).\n\nWhy this is useful\nThe gap is defined as a systematic omission, not an absence of literature. This makes the gap credible and defensible.\n\nAdditional task - Identify the type of gap (contextual, population, methodological). - Explain why this gap matters for the research objective. - Rewrite the gap in one sentence without using “there is little research”."
+    "text": "3.4 Task 3 — Name the gap type (stop vague “there is little literature” claims)\nChoose one paragraph from your current LR draft (or a sample you provide).\nIdentify the most relevant gap type:\n\nTheoretical gap (missing mechanism or concept)\nMethodological gap (identification, measurement, data limitations)\nContextual gap (different city/country/institutional setting)\nTemporal gap (outdated period; post-policy change)\nPopulation/heterogeneity gap (who is affected; distributional effects)\n\nWrite a 3–4 line gap statement that: 1. Names the gap type, 2. Explains why it matters, 3. Links directly to your objective.\n\n3.4.1 Exemplar (a defensible research gap)\nSource: Macpherson-Smith, E. (2021). Can urban regeneration unlock opportunities for women?\n\n“Despite this recent emergence there are still significant gaps in feminist urban planning literature, with notable omissions in the study of regeneration and the lived experiences of inner-city women.” (Literature Review, p. 7).\n\nWhy this is useful\nThe gap is defined as a systematic omission, not an absence of literature. This makes the gap credible and defensible.\n\nAdditional task - Identify the type of gap (contextual, population, methodological). - Explain why this gap matters for the research objective. - Rewrite the gap in one sentence without using “there is little research”.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#task-5-from-literature-to-research-design",
     "href": "literature review.html#task-5-from-literature-to-research-design",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.5 Task 5 — From literature to research design",
-    "text": "3.5 Task 5 — From literature to research design\n\n3.5.1 Exemplar (literature review shaping method)\nSource: Popham, E. (2021). Legislating for Sustainable Development Using Spatial Justice Principles.\n\n“The aim of this literature review is to identify the spatial justice principles that are important to disrupt cycles of inequality… In order to establish an analytical framework… it is important to understand the key principles which represent spatial justice.” (Literature Review, pp. 8–9).\n\nWhy this is useful\nThis passage shows the literature review actively constructing the research framework, rather than serving as background.\n\nYour task - Identify which concepts are carried forward into the framework. - Explain how theory is operationalised. - Suggest one alternative theory and how it would alter the research design."
+    "text": "3.5 Task 5 — From literature to research design\n\n3.5.1 Exemplar (literature review shaping method)\nSource: Popham, E. (2021). Legislating for Sustainable Development Using Spatial Justice Principles.\n\n“The aim of this literature review is to identify the spatial justice principles that are important to disrupt cycles of inequality… In order to establish an analytical framework… it is important to understand the key principles which represent spatial justice.” (Literature Review, pp. 8–9).\n\nWhy this is useful\nThis passage shows the literature review actively constructing the research framework, rather than serving as background.\n\nYour task - Identify which concepts are carried forward into the framework. - Explain how theory is operationalised. - Suggest one alternative theory and how it would alter the research design.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#task-6-paragraph-surgery-rewrite-with-three-constraints",
     "href": "literature review.html#task-6-paragraph-surgery-rewrite-with-three-constraints",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.6 Task 6 — Paragraph surgery (rewrite with three constraints)",
-    "text": "3.6 Task 6 — Paragraph surgery (rewrite with three constraints)\nTake a descriptive paragraph and rewrite it using:\n\n1 analytical verb (e.g., qualifies, contrasts, interrogates)\n1 explicit mechanism (the “because”)\n1 bridge sentence back to your objective\n\nKeep the paragraph within 120–160 words. ::: callout-tip ## Key takeaway\nA strong literature review is not about demonstrating how much you have read. It is about demonstrating judgement: what matters, why it matters, and how it justifies the research you are about to undertake. ::: ## Literature review “quality checklist”\nUse this as a self-audit before you submit a draft."
+    "text": "3.6 Task 6 — Paragraph surgery (rewrite with three constraints)\nTake a descriptive paragraph and rewrite it using:\n\n1 analytical verb (e.g., qualifies, contrasts, interrogates)\n1 explicit mechanism (the “because”)\n1 bridge sentence back to your objective\n\nKeep the paragraph within 120–160 words. ::: callout-tip ## Key takeaway\nA strong literature review is not about demonstrating how much you have read. It is about demonstrating judgement: what matters, why it matters, and how it justifies the research you are about to undertake. ::: ## Literature review “quality checklist”\nUse this as a self-audit before you submit a draft.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#structure-and-argument",
     "href": "literature review.html#structure-and-argument",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.7 Structure and argument",
-    "text": "3.7 Structure and argument\n\nI have clear themes (not a chronological list of papers).\nEach theme ends with a so what? sentence (implication for objective).\nI have at least one explicit debate/tension (not false consensus)."
+    "text": "3.7 Structure and argument\n\nI have clear themes (not a chronological list of papers).\nEach theme ends with a so what? sentence (implication for objective).\nI have at least one explicit debate/tension (not false consensus).",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#evidence-and-methods",
     "href": "literature review.html#evidence-and-methods",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.8 Evidence and methods",
-    "text": "3.8 Evidence and methods\n\nI distinguish correlation from causal evidence where relevant.\nI mention key methodological differences that explain disagreement.\nI avoid over-claiming beyond the evidence."
+    "text": "3.8 Evidence and methods\n\nI distinguish correlation from causal evidence where relevant.\nI mention key methodological differences that explain disagreement.\nI avoid over-claiming beyond the evidence.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#voice-and-positioning",
     "href": "literature review.html#voice-and-positioning",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.9 Voice and positioning",
-    "text": "3.9 Voice and positioning\n\nI use analytical verbs and qualifiers.\nI explain why I include sources (relevance), not just what they say.\nI identify what my study will contribute (gap + how I address it)."
+    "text": "3.9 Voice and positioning\n\nI use analytical verbs and qualifiers.\nI explain why I include sources (relevance), not just what they say.\nI identify what my study will contribute (gap + how I address it).",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#the-pipeline-at-a-glance",
     "href": "literature review.html#the-pipeline-at-a-glance",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.10 The pipeline at a glance",
-    "text": "3.10 The pipeline at a glance\nThis is the workflow I use when writing a literature review while remaining compliant with University regulations on AI use.\nThe guiding principle is that AI may support research and reflection, but all assessed writing must be your own original work.\nThe core stages are:\n\nCollect widely\nFilter systematically\nRead deeply (a minority of papers)\nMap concepts and gaps\nDesign structure before writing\nWrite your own content\nReview twice: diagnostic AI checks → full human review\n\n\n\n\n\n\n\n\nNon-negotiable rule (assessment context)\n\n\n\nAI tools may be used only as an aid to research, organisation, or reflection.\nUnder no circumstances should AI-generated text, structure, analysis, or paraphrased output be incorporated into assessed work.\nYou remain fully responsible for:\n\naccuracy of claims,\ninterpretation of evidence,\ncorrect citation,\ncoherence and logic linking the literature to your research objective."
+    "text": "3.10 The pipeline at a glance\nThis is the workflow I use when writing a literature review while remaining compliant with University regulations on AI use.\nThe guiding principle is that AI may support research and reflection, but all assessed writing must be your own original work.\nThe core stages are:\n\nCollect widely\nFilter systematically\nRead deeply (a minority of papers)\nMap concepts and gaps\nDesign structure before writing\nWrite your own content\nReview twice: diagnostic AI checks → full human review\n\n\n\n\n\n\n\n\nNon-negotiable rule (assessment context)\n\n\n\nAI tools may be used only as an aid to research, organisation, or reflection.\nUnder no circumstances should AI-generated text, structure, analysis, or paraphrased output be incorporated into assessed work.\nYou remain fully responsible for:\n\naccuracy of claims,\ninterpretation of evidence,\ncorrect citation,\ncoherence and logic linking the literature to your research objective.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#step-1-find-literature-collect-widely",
     "href": "literature review.html#step-1-find-literature-collect-widely",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.11 Step 1 — Find literature (collect widely)",
-    "text": "3.11 Step 1 — Find literature (collect widely)\n\n3.11.1 Goal\nBuild a broad, traceable, and defensible pool of candidate literature before deciding what merits close reading.\n\n\n3.11.2 Tools (examples)\n\nReference manager: Zotero\n\nSearch & discovery: Google Scholar, Elicit, Consensus, Litmaps\n\nNetwork discovery: Connected Papers, Research Rabbit\n\nSearch/reading interfaces: SciSpace\n\n\n\n3.11.3 What to do\n\nCreate a dedicated reference manager collection (e.g. Dissertation – Literature Review).\nSearch using topic terms + synonyms + methodological keywords.\nSave all potentially relevant papers at this stage (do not over-filter early).\nRecord basic metadata:\n\ntopic/theme,\nmethods,\ndata/context,\nkey constructs or variables.\n\n\n\n\n\n\n\n\nOld-school search still matters\n\n\n\nGoogle Scholar remains valuable when you want full control over keywords and search logic.\nAI tools complement this — they do not replace it.\n\n\n\n\n3.11.4 Optional exercise (planning only)\n\nDraft three keyword strings:\n\ncore topic terms,\nmethods/approaches,\ncontext (place, time, population).\n\nUse them in Google Scholar and one AI-assisted search tool, then import results into your reference manager."
+    "text": "3.11 Step 1 — Find literature (collect widely)\n\n3.11.1 Goal\nBuild a broad, traceable, and defensible pool of candidate literature before deciding what merits close reading.\n\n\n3.11.2 Tools (examples)\n\nReference manager: Zotero\n\nSearch & discovery: Google Scholar, Elicit, Consensus, Litmaps\n\nNetwork discovery: Connected Papers, Research Rabbit\n\nSearch/reading interfaces: SciSpace\n\n\n\n3.11.3 What to do\n\nCreate a dedicated reference manager collection (e.g. Dissertation – Literature Review).\nSearch using topic terms + synonyms + methodological keywords.\nSave all potentially relevant papers at this stage (do not over-filter early).\nRecord basic metadata:\n\ntopic/theme,\nmethods,\ndata/context,\nkey constructs or variables.\n\n\n\n\n\n\n\n\nOld-school search still matters\n\n\n\nGoogle Scholar remains valuable when you want full control over keywords and search logic.\nAI tools complement this — they do not replace it.\n\n\n\n\n3.11.4 Optional exercise (planning only)\n\nDraft three keyword strings:\n\ncore topic terms,\nmethods/approaches,\ncontext (place, time, population).\n\nUse them in Google Scholar and one AI-assisted search tool, then import results into your reference manager.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#step-2-filter-literature-triage-not-judgement",
     "href": "literature review.html#step-2-filter-literature-triage-not-judgement",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.12 Step 2 — Filter literature (triage, not judgement)",
-    "text": "3.12 Step 2 — Filter literature (triage, not judgement)\n\n3.12.1 Goal\nReduce the reading burden by identifying papers most likely to matter for your research objective.\n\n\n3.12.2 Tools (examples)\n\nSciSpace (relevance indicators, filters)\nConsensus (key papers, contributors, evidence clusters)\nNotebookLM (querying your uploaded references)\n\n\n\n3.12.3 What to do\n\nStart from the full reference manager collection.\nUse tools to assist screening, considering:\n\ntopical relevance,\nalignment with your objective,\nfoundational vs. recent contributions.\n\nCreate three lists:\n\npapers for full reading,\npapers to revisit later,\npapers excluded from this project.\n\n\n\n\n\n\n\n\nAI assists triage, not judgement\n\n\n\nAI can speed up screening, but you must still check titles, abstracts, and — where needed — methods or results sections yourself."
+    "text": "3.12 Step 2 — Filter literature (triage, not judgement)\n\n3.12.1 Goal\nReduce the reading burden by identifying papers most likely to matter for your research objective.\n\n\n3.12.2 Tools (examples)\n\nSciSpace (relevance indicators, filters)\nConsensus (key papers, contributors, evidence clusters)\nNotebookLM (querying your uploaded references)\n\n\n\n3.12.3 What to do\n\nStart from the full reference manager collection.\nUse tools to assist screening, considering:\n\ntopical relevance,\nalignment with your objective,\nfoundational vs. recent contributions.\n\nCreate three lists:\n\npapers for full reading,\npapers to revisit later,\npapers excluded from this project.\n\n\n\n\n\n\n\n\nAI assists triage, not judgement\n\n\n\nAI can speed up screening, but you must still check titles, abstracts, and — where needed — methods or results sections yourself.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#step-3-full-read-deep-engagement-with-a-subset",
     "href": "literature review.html#step-3-full-read-deep-engagement-with-a-subset",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.13 Step 3 — Full read (deep engagement with a subset)",
-    "text": "3.13 Step 3 — Full read (deep engagement with a subset)\n\n3.13.1 Goal\nDevelop genuine understanding of the field without attempting to read everything.\n\n\n3.13.2 Rule of thumb\nAfter filtering, fully read around 20–25% of the shortlisted papers (those with highest signal value).\n\n\n3.13.3 During a full read, extract (in your own notes)\n\nresearch question and motivation,\ntheoretical mechanisms,\ndata and empirical strategy,\nstrengths and limitations,\nkey findings,\ncontribution relative to the literature,\nunresolved issues or gaps.\n\n\n\n\n\n\n\nThis step cannot be automated\n\n\n\nSkipping full reading risks misinterpretation, weak synthesis, and factual errors — all common triggers for academic misconduct investigations."
+    "text": "3.13 Step 3 — Full read (deep engagement with a subset)\n\n3.13.1 Goal\nDevelop genuine understanding of the field without attempting to read everything.\n\n\n3.13.2 Rule of thumb\nAfter filtering, fully read around 20–25% of the shortlisted papers (those with highest signal value).\n\n\n3.13.3 During a full read, extract (in your own notes)\n\nresearch question and motivation,\ntheoretical mechanisms,\ndata and empirical strategy,\nstrengths and limitations,\nkey findings,\ncontribution relative to the literature,\nunresolved issues or gaps.\n\n\n\n\n\n\n\nThis step cannot be automated\n\n\n\nSkipping full reading risks misinterpretation, weak synthesis, and factual errors — all common triggers for academic misconduct investigations.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#step-4-mapping-concepts-and-gaps",
     "href": "literature review.html#step-4-mapping-concepts-and-gaps",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.14 Step 4 — Mapping concepts and gaps",
-    "text": "3.14 Step 4 — Mapping concepts and gaps\n\n3.14.1 Goal\nTransform a list of papers into a structured understanding of: - key concepts, - thematic groupings, - debates, - and research gaps linked to your objective.\n\n\n3.14.2 Tools (examples)\n\nNotebookLM (concept mapping / visual organisation)\nConsensus (coverage matrices and gap indicators)\n\n\n\n3.14.3 What to do\n\nBuild a conceptual map based on papers you have read.\nGroup literature by:\n\nconcepts or mechanisms,\nmethodological approaches,\ncontexts or datasets.\n\nIdentify:\n\nareas of dense evidence,\ncontradictions,\nunder-explored questions.\n\n\n\n\n3.14.4 Deliverable\nA provisional set of themes and candidate sections, written in your own words."
+    "text": "3.14 Step 4 — Mapping concepts and gaps\n\n3.14.1 Goal\nTransform a list of papers into a structured understanding of: - key concepts, - thematic groupings, - debates, - and research gaps linked to your objective.\n\n\n3.14.2 Tools (examples)\n\nNotebookLM (concept mapping / visual organisation)\nConsensus (coverage matrices and gap indicators)\n\n\n\n3.14.3 What to do\n\nBuild a conceptual map based on papers you have read.\nGroup literature by:\n\nconcepts or mechanisms,\nmethodological approaches,\ncontexts or datasets.\n\nIdentify:\n\nareas of dense evidence,\ncontradictions,\nunder-explored questions.\n\n\n\n\n3.14.4 Deliverable\nA provisional set of themes and candidate sections, written in your own words.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#step-5-structure-design-before-drafting",
     "href": "literature review.html#step-5-structure-design-before-drafting",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.15 Step 5 — Structure (design before drafting)",
-    "text": "3.15 Step 5 — Structure (design before drafting)\n\n3.15.1 Goal\nDesign the architecture of the literature review before writing prose.\n\n\n3.15.2 How to use AI (permitted)\nAI may be used only to prompt reflection, not to generate a structure to reuse.\nAcceptable use - asking for questions you should consider, - checking whether common elements are missing.\nNot acceptable - copying AI-generated outlines into assessed work.\n\n\n\n\n\n\nStructure must be yours\n\n\n\nYou must be able to justify: - why sections exist, - why they appear in that order, - how each section supports the research objective.\n\n\n\n\n3.15.3 Example structure (illustrative, not prescriptive)\n\nFraming the problem and relevance of the literature\n\nCore concept/theme A\n\nCore concept/theme B\n\nMethodological or measurement issues (if relevant)\n\nDebates and contested findings\n\nResearch gaps and positioning of your study\n\nSummary and transition to research design"
+    "text": "3.15 Step 5 — Structure (design before drafting)\n\n3.15.1 Goal\nDesign the architecture of the literature review before writing prose.\n\n\n3.15.2 How to use AI (permitted)\nAI may be used only to prompt reflection, not to generate a structure to reuse.\nAcceptable use - asking for questions you should consider, - checking whether common elements are missing.\nNot acceptable - copying AI-generated outlines into assessed work.\n\n\n\n\n\n\nStructure must be yours\n\n\n\nYou must be able to justify: - why sections exist, - why they appear in that order, - how each section supports the research objective.\n\n\n\n\n3.15.3 Example structure (illustrative, not prescriptive)\n\nFraming the problem and relevance of the literature\n\nCore concept/theme A\n\nCore concept/theme B\n\nMethodological or measurement issues (if relevant)\n\nDebates and contested findings\n\nResearch gaps and positioning of your study\n\nSummary and transition to research design",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#step-6-content-authorial-control",
     "href": "literature review.html#step-6-content-authorial-control",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.16 Step 6 — Content (authorial control)",
-    "text": "3.16 Step 6 — Content (authorial control)\n\n3.16.1 Goal\nWrite the literature review entirely in your own words, grounded in sources you have read.\n\n\n3.16.2 Permitted AI support\n\nclarifying terminology,\nchecking logical consistency,\nidentifying where citations may be needed,\nlocating additional sources you then read yourself.\n\n\n\n3.16.3 Writing discipline\nEach paragraph should contain: - a clear claim, - supporting evidence (citations), - interpretation or comparison, - explicit relevance to the research objective.\n\n\n\n\n\n\nLiterature reviews are analytical, not descriptive\n\n\n\nAvoid paper-by-paper summaries. Focus on synthesis, comparison, and evaluation."
+    "text": "3.16 Step 6 — Content (authorial control)\n\n3.16.1 Goal\nWrite the literature review entirely in your own words, grounded in sources you have read.\n\n\n3.16.2 Permitted AI support\n\nclarifying terminology,\nchecking logical consistency,\nidentifying where citations may be needed,\nlocating additional sources you then read yourself.\n\n\n\n3.16.3 Writing discipline\nEach paragraph should contain: - a clear claim, - supporting evidence (citations), - interpretation or comparison, - explicit relevance to the research objective.\n\n\n\n\n\n\nLiterature reviews are analytical, not descriptive\n\n\n\nAvoid paper-by-paper summaries. Focus on synthesis, comparison, and evaluation.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#step-7-review-diagnostic-ai-manual-review",
     "href": "literature review.html#step-7-review-diagnostic-ai-manual-review",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.17 Step 7 — Review (diagnostic AI → manual review)",
-    "text": "3.17 Step 7 — Review (diagnostic AI → manual review)\n\n3.17.1 Diagnostic AI checks (permitted)\nAI may be used to flag risks, not to rewrite text.\nExamples of acceptable checks: - alignment with learning outcomes, - missing citations, - unclear definitions, - logical gaps.\n\n\n\n\n\n\nTreat AI feedback as a checklist\n\n\n\nAI suggestions are prompts for your judgement — not instructions to implement verbatim.\n\n\n\n\n3.17.2 Manual review (mandatory)\n\nRead every sentence critically.\nCheck coherence, argument flow, and citation accuracy.\nProofread carefully.\n\n\n\n3.17.3 Two manual lenses\n\nAcademic rigor: is the argument defensible and evidence-based?\n\nReadability: is the text clear, precise, and error-free?\n\nA useful technique is reading paragraphs backwards, which helps identify errors obscured by narrative flow.\n\n\n\n\n\n\nPeer review strengthens integrity\n\n\n\nFeedback from supervisors, postdocs, or senior PhD students can reveal weaknesses early and reduce risk later."
+    "text": "3.17 Step 7 — Review (diagnostic AI → manual review)\n\n3.17.1 Diagnostic AI checks (permitted)\nAI may be used to flag risks, not to rewrite text.\nExamples of acceptable checks: - alignment with learning outcomes, - missing citations, - unclear definitions, - logical gaps.\n\n\n\n\n\n\nTreat AI feedback as a checklist\n\n\n\nAI suggestions are prompts for your judgement — not instructions to implement verbatim.\n\n\n\n\n3.17.2 Manual review (mandatory)\n\nRead every sentence critically.\nCheck coherence, argument flow, and citation accuracy.\nProofread carefully.\n\n\n\n3.17.3 Two manual lenses\n\nAcademic rigor: is the argument defensible and evidence-based?\n\nReadability: is the text clear, precise, and error-free?\n\nA useful technique is reading paragraphs backwards, which helps identify errors obscured by narrative flow.\n\n\n\n\n\n\nPeer review strengthens integrity\n\n\n\nFeedback from supervisors, postdocs, or senior PhD students can reveal weaknesses early and reduce risk later.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#permitted-prompt-examples-planning-and-checking-only",
     "href": "literature review.html#permitted-prompt-examples-planning-and-checking-only",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.18 Permitted prompt examples (planning and checking only)",
-    "text": "3.18 Permitted prompt examples (planning and checking only)\n\n3.18.1 Prompt A — Screening checklist\n\nMy research objective is [insert].\nBased on these titles/abstracts [paste], generate a screening checklist I should apply myself when deciding what to read fully.\nDo not summarise or evaluate individual papers.\n\n\n\n3.18.2 Prompt B — Structure reflection\n\nMy research objective is [insert].\nGenerate questions that would help me design a logical literature review structure.\nDo not propose headings or an outline.\n\n\n\n3.18.3 Prompt C — Risk audit\n\nHere is my draft and the marking criteria.\nIdentify risk areas only (e.g. unsupported claims, missing citations, unclear positioning).\nDo not rewrite or suggest replacement text."
+    "text": "3.18 Permitted prompt examples (planning and checking only)\n\n3.18.1 Prompt A — Screening checklist\n\nMy research objective is [insert].\nBased on these titles/abstracts [paste], generate a screening checklist I should apply myself when deciding what to read fully.\nDo not summarise or evaluate individual papers.\n\n\n\n3.18.2 Prompt B — Structure reflection\n\nMy research objective is [insert].\nGenerate questions that would help me design a logical literature review structure.\nDo not propose headings or an outline.\n\n\n\n3.18.3 Prompt C — Risk audit\n\nHere is my draft and the marking criteria.\nIdentify risk areas only (e.g. unsupported claims, missing citations, unclear positioning).\nDo not rewrite or suggest replacement text.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#what-success-looks-like",
     "href": "literature review.html#what-success-looks-like",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.19 What “success” looks like",
-    "text": "3.19 What “success” looks like\nA strong literature review: - is organised around themes and mechanisms, - demonstrates critical evaluation, - clearly supports the research objective, - ends with a well-justified research gap."
+    "text": "3.19 What “success” looks like\nA strong literature review: - is organised around themes and mechanisms, - demonstrates critical evaluation, - clearly supports the research objective, - ends with a well-justified research gap.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   },
   {
     "objectID": "literature review.html#academic-integrity-reminder",
     "href": "literature review.html#academic-integrity-reminder",
     "title": "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)",
     "section": "3.20 Academic integrity reminder",
-    "text": "3.20 Academic integrity reminder\n\nAI output must never appear in assessed work (directly or paraphrased).\nAI may be used for research assistance, planning, and self-checking only.\nAll claims must be verified against original sources.\nYou may be required to declare AI use and defend your work in a viva.\n\n\n\n\n\n\n\nPolicy takes precedence\n\n\n\nAlways follow module-specific and departmental guidance.\nIf in doubt, seek clarification before submission."
+    "text": "3.20 Academic integrity reminder\n\nAI output must never appear in assessed work (directly or paraphrased).\nAI may be used for research assistance, planning, and self-checking only.\nAll claims must be verified against original sources.\nYou may be required to declare AI use and defend your work in a viva.\n\n\n\n\n\n\n\nPolicy takes precedence\n\n\n\nAlways follow module-specific and departmental guidance.\nIf in doubt, seek clarification before submission.",
+    "crumbs": [
+      "Research Workshop: Literature Review (Students Driving, AI in the Back Seat)"
+    ]
   }
 ]

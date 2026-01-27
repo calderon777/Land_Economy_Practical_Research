@@ -43,7 +43,7 @@ Welcome to the PGR Dissertation Workshops. These sessions are **user-centred** a
 - Sample dissertations: **LE471, LE400, LE468 (2017–18)**. :contentReference[oaicite:9]{index=9}
 
 ### Workshop 2 — Literature Review (30 Jan)
-- From objective → RQs; what a literature review **is / is not**.  
+- From objective → RQs; what a literature review **is / is not**. See the [Literature Review workshop page](literature%20review.qmd).  
 - Scope, search, read, **theme**, and **turn reading into writing**.  
 - Dissertations: **LE115, LE123, LE149, LE110 (2021)**. :contentReference[oaicite:10]{index=10}
 
