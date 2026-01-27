@@ -91,19 +91,6 @@ This passage demonstrates careful coverage of definitions but only a **light ana
 - Identify where the author makes an analytical decision. 
 - Rewrite one sentence to make the author's judgement explicit.
 
-### Compare with these versions
-
-Read the two versions below. Which one is analytical, and why?
-
-**Version A (mostly summary)**
-
-> Several studies examine the impact of transport accessibility on land values. Smith (2019) finds that areas closer to stations have higher prices. Jones (2020) reports similar results using a different dataset. Patel (2021) also shows that transport upgrades increase local prices.
-
-**Version B (analysis + relevance)**
-
-> Evidence generally supports a positive association between transport accessibility and land values, but estimates vary with how accessibility is measured and with local supply constraints. While Smith (2019) reports larger effects near stations, Jones (2020) finds attenuated impacts once new housing supply is controlled for, suggesting that **supply elasticity mediates capitalisation**. This matters for my objective—estimating accessibility effects in \[YOUR CITY/REGION\]—because local planning constraints may bias naïve estimates upward. I therefore prioritise studies that explicitly address supply conditions and identification strategy.
-
-**Your output (3 bullet points):** - What analytical move(s) appear in Version B that are absent in Version A? - What is the implied mechanism? - Where is the link to a research objective?
 
 ------------------------------------------------------------------------
 
@@ -145,14 +132,6 @@ This excerpt groups authors by **intellectual position and evolution**, rather t
 - Write a one-sentence synthesis capturing the evolution of the debate. 
 - Add a qualifier explaining why this evolution matters for the dissertation.
 
-### Practice exercise
-
-Pick **three** papers you kept. Write **one sentence** that relates them.
-
-Constraints: - You must include at least one contrast word (**whereas**, **however**, **in contrast**). - You must include at least one qualifier (**in contexts where**, **conditional on**, **provided that**). - No citations allowed in the first draft (focus on thinking).
-
-Then, add citations in the second draft.
-
 ## Task 3 — Name the gap type (stop vague “there is little literature” claims)
 
 Choose one paragraph from your current LR draft (or a sample you provide).
@@ -172,7 +151,7 @@ Write a 3–4 line **gap statement** that: 1. Names the gap type, 2. Explains wh
 
 **Source:** Macpherson-Smith, E. (2021). *Can urban regeneration unlock opportunities for women?*
 
-> *"Despite this recent emergence there are still significant gaps in feminist urban planning literature, with notable omissions in the study of regeneration and the lived experiences of inner-city women."* (Literature Review, p. 7).
+> *"Despite this recent emergence there are still significant gaps in feminist urban planning literature, with notable omissions in the study of regeneration and the lived experiences of inner-city women."* (Ibid, p. 7).
 
 **Why this is useful**\
 The gap is defined as a **systematic omission**, not an absence of literature. This makes the gap credible and defensible.
@@ -219,6 +198,8 @@ Keep the paragraph within **120–160 words**.
 
 A strong literature review is not about demonstrating how much you have read. It is about demonstrating **judgement**: what matters, why it matters, and how it justifies the research you are about to undertake.
 :::
+
+
 ## Literature review “quality checklist”
 
 Use this as a self-audit before you submit a draft.
@@ -242,9 +223,10 @@ Use this as a self-audit before you submit a draft.
 -   I identify what my study will contribute (gap + how I address it).
 
 
-## The pipeline at a glance
+## A LR pipeline at a glance
 
-This is the workflow I use when writing a literature review while remaining compliant with University regulations on AI use.  
+When writing a literature review remain compliant with University regulations on AI use.
+
 The guiding principle is that **AI may support research and reflection, but all assessed writing must be your own original work**.
 
 The core stages are:
@@ -257,12 +239,11 @@ The core stages are:
 - **Write your own content**
 - **Review twice: diagnostic AI checks → full human review**
 
-![](images/lit-review-pipeline.png){fig-alt="Literature review pipeline: Find → Filter → Full read → Map concepts/gaps → Structure/Content → AI review → Manual review" width=100%}
-
 ::: callout-important
 ## Non-negotiable rule (assessment context)
 
 AI tools may be used **only as an aid to research, organisation, or reflection**.  
+
 Under no circumstances should **AI-generated text, structure, analysis, or paraphrased output** be incorporated into assessed work.
 
 You remain fully responsible for:
@@ -283,7 +264,7 @@ Build a **broad, traceable, and defensible** pool of candidate literature before
 ### Tools (examples)
 - **Reference manager:** Zotero  
 - **Search & discovery:** Google Scholar, Elicit, Consensus, Litmaps  
-- **Network discovery:** Connected Papers, Research Rabbit  
+- **Network discovery:** Connected Papers, ResearchRabbit  
 - **Search/reading interfaces:** SciSpace  
 
 ### What to do
@@ -298,7 +279,7 @@ Build a **broad, traceable, and defensible** pool of candidate literature before
 
 ::: callout-note
 ## Old-school search still matters
-Google Scholar remains valuable when you want full control over keywords and search logic.  
+iDiscover, Google Scholar remains valuable when you want full control over keywords and search logic.  
 AI tools complement this — they do not replace it.
 :::
 
@@ -476,7 +457,6 @@ AI suggestions are prompts for your judgement — not instructions to implement 
 - **Academic rigor:** is the argument defensible and evidence-based?  
 - **Readability:** is the text clear, precise, and error-free?
 
-A useful technique is reading paragraphs **backwards**, which helps identify errors obscured by narrative flow.
 
 ::: callout-warning
 ## Peer review strengthens integrity
