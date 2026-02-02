@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Camilo Calderon">
+<meta name="dcterms.date" content="2026-02-01">
+
+<title>Data Management and Methods – Practical Research for Land Economy</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-646b78754cb0032dc5dc4d62f1fb0386.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ba19d7beb30be9cfb052ff2966d702ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Data_Management_and_Methods.html">Data Management and Methods</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Practical Research for Land Economy</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome &amp; Guidelines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research objective.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research Workshop: Dissertation Objective</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./literature review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research Workshop: Literature Review (Students Driving, AI in the Back Seat)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Data_Management_and_Methods.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data Management and Methods</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#why-this-chapter-matters" id="toc-why-this-chapter-matters" class="nav-link" data-scroll-target="#why-this-chapter-matters"><span class="header-section-number">1.1</span> Why this chapter matters</a></li>
+  <li><a href="#from-broad-choices-to-specific-decisions-the-research-onion" id="toc-from-broad-choices-to-specific-decisions-the-research-onion" class="nav-link" data-scroll-target="#from-broad-choices-to-specific-decisions-the-research-onion"><span class="header-section-number">1.2</span> From broad choices to specific decisions: the research onion</a></li>
+  <li><a href="#why-some-supervisors-start-with-methods" id="toc-why-some-supervisors-start-with-methods" class="nav-link" data-scroll-target="#why-some-supervisors-start-with-methods"><span class="header-section-number">1.3</span> Why some supervisors start with Methods</a></li>
+  <li><a href="#what-this-workshop-will-do" id="toc-what-this-workshop-will-do" class="nav-link" data-scroll-target="#what-this-workshop-will-do"><span class="header-section-number">1.4</span> What this workshop will do</a></li>
+  </ul></li>
+  <li><a href="#exercises-exemplar-based" id="toc-exercises-exemplar-based" class="nav-link" data-scroll-target="#exercises-exemplar-based"><span class="header-section-number">2</span> Exercises (Exemplar-based)</a>
+  <ul class="collapse">
+  <li><a href="#exercise-2-method-choice-bias-methods-i-know-vs-methods-my-question-needs" id="toc-exercise-2-method-choice-bias-methods-i-know-vs-methods-my-question-needs" class="nav-link" data-scroll-target="#exercise-2-method-choice-bias-methods-i-know-vs-methods-my-question-needs"><span class="header-section-number">2.1</span> Exercise 2 — Method-choice bias (“methods I know” vs “methods my question needs”)</a></li>
+  <li><a href="#exercise-3-alignment-justification-relevance-methods-must-do-work" id="toc-exercise-3-alignment-justification-relevance-methods-must-do-work" class="nav-link" data-scroll-target="#exercise-3-alignment-justification-relevance-methods-must-do-work"><span class="header-section-number">2.2</span> Exercise 3 — Alignment + justification + relevance (methods must <em>do work</em>)</a></li>
+  <li><a href="#typical-weak-methods-writing" id="toc-typical-weak-methods-writing" class="nav-link" data-scroll-target="#typical-weak-methods-writing"><span class="header-section-number">2.3</span> Typical weak Methods writing</a></li>
+  <li><a href="#exercise-4-sampling-faq-qualitative-quantitative-and-the-special-case" id="toc-exercise-4-sampling-faq-qualitative-quantitative-and-the-special-case" class="nav-link" data-scroll-target="#exercise-4-sampling-faq-qualitative-quantitative-and-the-special-case"><span class="header-section-number">2.4</span> Exercise 4 — Sampling FAQ (qualitative, quantitative, and the “special case”)</a></li>
+  <li><a href="#qualitative-interviews-sampling-faqs-answered" id="toc-qualitative-interviews-sampling-faqs-answered" class="nav-link" data-scroll-target="#qualitative-interviews-sampling-faqs-answered"><span class="header-section-number">2.5</span> 4.1 Qualitative interviews: sampling FAQs (answered)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Data Management and Methods</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Camilo Calderon </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>This workshop focuses on <strong>how to write</strong> the <em>Data Management and Methods</em> chapter of your dissertation.<br>
+It is not a research methods lecture. Instead, it addresses the <strong>practical writing decisions</strong> examiners expect to see when assessing whether your research design is credible, feasible, and well-justified.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Core message
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A strong Methods chapter answers <strong>“how”</strong> and <strong>“why this way”</strong>,<br>
+not <strong>“what does it mean.”</strong></p>
+</div>
+</div>
+<section id="why-this-chapter-matters" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="why-this-chapter-matters"><span class="header-section-number">1.1</span> Why this chapter matters</h2>
+<p>The Methods chapter explains <strong>how your research is carried out</strong> and <strong>why the chosen approach is appropriate</strong> for answering your research question. Its primary purpose is to demonstrate:</p>
+<ul>
+<li>clarity about what data can realistically be collected,</li>
+<li>justification for methodological choices,</li>
+<li>awareness of the implications and limitations of those choices.</li>
+</ul>
+<p>Unlike the literature review, this chapter is <strong>less analytical and more justificatory</strong>. However, it still requires <em>judgement</em>: different choices would lead to different types of evidence, results, and conclusions.</p>
+</section>
+<section id="from-broad-choices-to-specific-decisions-the-research-onion" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="from-broad-choices-to-specific-decisions-the-research-onion"><span class="header-section-number">1.2</span> From broad choices to specific decisions: the research onion</h2>
+<p>A useful way to think about this chapter is to move from <strong>broad to specific decisions</strong>, often illustrated through the “<em>research onion”</em>:</p>
+<ul>
+<li>overall research approach (qualitative, quantitative, mixed methods),</li>
+<li>data sources and collection strategies,</li>
+<li>sampling or case selection,</li>
+<li>analytical tools and procedures.</li>
+</ul>
+<p>The key point is not to reproduce the diagram, but to show that your methods are the <strong>result of a sequence of informed decisions</strong>, not arbitrary preferences.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Practical takeaway
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You are not expected to use the most advanced method available.<br>
+You are expected to use a method that is <strong>fit for your question and your data constraints</strong>.</p>
+</div>
+</div>
+</section>
+<section id="why-some-supervisors-start-with-methods" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="why-some-supervisors-start-with-methods"><span class="header-section-number">1.3</span> Why some supervisors start with Methods</h2>
+<p>In practice, many supervisors prefer to discuss the <em>Data Management and Methods</em> chapter early in the dissertation process. The reason is simple:</p>
+<blockquote class="blockquote">
+<p>The data you can collect determines the questions you can credibly answer.</p>
+</blockquote>
+<p>Starting with this chapter helps to: - clarify what is feasible within time and access constraints, - avoid designing questions that cannot be answered with available data, - ensure early alignment between objectives, data, and methods.</p>
+<p>This workshop adopts that same logic.</p>
+</section>
+<section id="what-this-workshop-will-do" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="what-this-workshop-will-do"><span class="header-section-number">1.4</span> What this workshop will do</h2>
+<p>Using <strong>exemplars from previous Master’s dissertations</strong>, you will:</p>
+<ul>
+<li>examine how students justify their methodological choices,</li>
+<li>identify good and weak practices in methods writing,</li>
+<li>reflect on biases towards familiar methods,</li>
+<li>learn how to explain limitations without undermining your project.</li>
+</ul>
+<p>The focus throughout is on <strong>writing a credible Methods chapter</strong>, not on learning new techniques.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Think like an examiner
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>An examiner may disagree with your choices and still award high marks if your methods are <strong>clear, justified, and appropriate</strong>.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="exercises-exemplar-based" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Exercises (Exemplar-based)</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to use the exemplars
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Read each excerpt as if you were assessing a dissertation.</p>
+<p>Your job is to extract <strong>writing moves</strong>: - What decision is being made? - How is it justified? - What is stated vs what is assumed?</p>
+</div>
+</div>
+<section id="exercise-2-method-choice-bias-methods-i-know-vs-methods-my-question-needs" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="exercise-2-method-choice-bias-methods-i-know-vs-methods-my-question-needs"><span class="header-section-number">2.1</span> Exercise 2 — Method-choice bias (“methods I know” vs “methods my question needs”)</h2>
+<p>A common weakness in Methods chapters is <strong>method myopia</strong>: choosing the method you feel comfortable with, then searching for a justification afterwards. The goal of this exercise is to recognise that bias and replace it with <strong>fit-for-purpose choice</strong>.</p>
+<section id="exemplar-a-case-study-multiple-sources-pragmatic-fit" class="level3 callout-example" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="exemplar-a-case-study-multiple-sources-pragmatic-fit"><span class="header-section-number">2.1.1</span> Exemplar A — Case study + multiple sources (pragmatic fit)</h3>
+<p><strong>Source:</strong> <em>Smart City Mission in India: case of Warangal</em>, Methods/Data section (LE334, p.&nbsp;17).</p>
+<blockquote class="blockquote">
+<p><em>“This case study research is based on an examination of socio-economic data sets on Warangal, an analysis of planning documents, fifteen semi-structured interviews of local government officials and city residents. Both primary data and secondary data was utilised to obtain findings for the above-mentioned research questions.”</em></p>
+</blockquote>
+<p><strong>What to notice</strong>: the author commits early to <strong>multiple data sources</strong> because a single method would miss key dimensions (policy design, implementation, lived experience).</p>
+</section>
+<section id="exemplar-b-mixed-methods-elite-interviews-problem-driven-choice" class="level3 callout-example" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="exemplar-b-mixed-methods-elite-interviews-problem-driven-choice"><span class="header-section-number">2.1.2</span> Exemplar B — Mixed methods + elite interviews (problem-driven choice)</h3>
+<p><strong>Source:</strong> <em>Indonesia’s Village Law: Policy Implementation</em>, Research Methodology (LE379 pp.&nbsp;24–26).</p>
+<blockquote class="blockquote">
+<p><em>“To investigate the plausibility of the Village Law in meeting its main objectives, this study adopts a ‘grounded theory’, and mixed methods, case-study approach… Semi-structured, in-depth elite interviews were utilised… [to] give in-depth insights, moving beyond the accounts of existing literature, evaluations and official documents.”</em> (PDF p.&nbsp;24)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>“The data collection method of the dissertation is a combination of: (i) Analysis of secondary qualitative and quantitative data… [and] (ii) Collection and analysis of primary data obtained from twenty in-depth and semi-structured elite interviews…”</em> (PDF p.&nbsp;26)</p>
+</blockquote>
+</section>
+<p><strong>Your task (write short answers):</strong> 1. For each exemplar (A and B), explain why the <em>decisions</em> were made (e.g., “case study + triangulation”, “mixed methods + elite interviews”). 2. Identify <strong>weak</strong> student rationale and discuss whether it can be enhanced or discarded.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What examiners reward
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Examiners reward method choice that is <strong>driven by the research problem</strong>, not by the researcher’s comfort zone.</p>
+</div>
+</div>
+</section>
+<section id="exercise-3-alignment-justification-relevance-methods-must-do-work" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="exercise-3-alignment-justification-relevance-methods-must-do-work"><span class="header-section-number">2.2</span> Exercise 3 — Alignment + justification + relevance (methods must <em>do work</em>)</h2>
+<p>A Methods chapter should make it easy for the reader to see that each element of the design has a purpose. This is about three things at once:</p>
+<ul>
+<li><strong>Alignment:</strong> does it answer the research question?</li>
+<li><strong>Justification:</strong> why this method, not a nearby alternative?</li>
+<li><strong>Relevance:</strong> is any part of the Methods section “dead weight”?</li>
+</ul>
+<section id="exemplar-c-why-process-tracing-not-just-interviews" class="level3 callout-example" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="exemplar-c-why-process-tracing-not-just-interviews"><span class="header-section-number">2.2.1</span> Exemplar C — Why <em>process-tracing</em> (not “just interviews”)</h3>
+<p><strong>Source:</strong> <em>Indonesia’s Village Law: Policy Implementation</em>, analysis strategy and triangulation (LE379, p.&nbsp;25).</p>
+<blockquote class="blockquote">
+<p><em>“The data gathered has been analysed via process-tracing… Process-tracing is an appropriate tool in theory testing and theory development… Patterns within the answers of interviewees were matched… and were then triangulated with secondary data.”</em> (PDF p.&nbsp;25)</p>
+</blockquote>
+</section>
+<section id="exemplar-d-why-gis-planning-documents-not-data-for-datas-sake" class="level3 callout-example" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="exemplar-d-why-gis-planning-documents-not-data-for-datas-sake"><span class="header-section-number">2.2.2</span> Exemplar D — Why GIS + planning documents (not “data for data’s sake”)</h3>
+<p><strong>Source:</strong> <em>Smart City Mission in India: case of Warangal</em>, data sources and analytical tools (LE334 p.&nbsp;17).</p>
+<blockquote class="blockquote">
+<p><em>“These documents have been collected to analyse… the way authorities are making an effort to utilise such ‘Smart’ solutions… The data… is analysed digitally with the help of Geographic Information System (GIS) software such as QGIS and Google Earth. Maps… assisted in comprehending the variations… and helped the researcher attain a precise geographical perspective…”</em></p>
+</blockquote>
+</section>
+<p><strong>Your task (table + short paragraph):</strong></p>
+<p>Create a mini mapping table for <strong>one</strong> of the exemplars (C or D):</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method element</th>
+<th>What question/decision it answers</th>
+<th>Why this (justification)</th>
+<th>What would be irrelevant here?</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</section>
+<section id="typical-weak-methods-writing" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="typical-weak-methods-writing"><span class="header-section-number">2.3</span> Typical weak Methods writing</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Students often describe their tools (e.g., “I used interviews”, “I used GIS”) but do not explain what those tools <em>allow them to conclude</em> and what they <em>cannot</em> conclude.</p>
+</div>
+</div>
+</section>
+<section id="exercise-4-sampling-faq-qualitative-quantitative-and-the-special-case" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="exercise-4-sampling-faq-qualitative-quantitative-and-the-special-case"><span class="header-section-number">2.4</span> Exercise 4 — Sampling FAQ (qualitative, quantitative, and the “special case”)</h2>
+<p>Most dissertations on this programme involve <strong>interviews</strong> (often semi-structured). Some use surveys. Others use documentary/policy sources. The sampling logic must be explicit because sampling determines what your evidence can and cannot speak about.</p>
+<section id="qualitative-interviews-typical-pattern-on-the-programme" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="qualitative-interviews-typical-pattern-on-the-programme"><span class="header-section-number">2.4.1</span> 4.1 Qualitative interviews (typical pattern on the programme)</h3>
+<section id="exemplar-e-non-probability-snowball-sampling-with-limitations" class="level4 callout-example" data-number="2.4.1.1">
+<h4 data-number="2.4.1.1" class="anchored" data-anchor-id="exemplar-e-non-probability-snowball-sampling-with-limitations"><span class="header-section-number">2.4.1.1</span> Exemplar E — Non-probability / snowball sampling (with limitations)</h4>
+<p><strong>Source:</strong> <em>Indonesia’s Village Law: Policy Implementation</em>, sampling rationale (PDF p.&nbsp;25). fileciteturn2file0</p>
+<blockquote class="blockquote">
+<p><em>“The most appropriate sampling procedures were those identifying the key political actors… This led to ‘non-probability’ sampling… A snowball/chain-referral sampling… was predominantly utilised… as the population of interest was not fully visible at the initial stage of the fieldwork…</em>” (PDF p.&nbsp;25)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>“Non-probability sampling also has limitations… [it] will not be representative… To address this, the selection of initial interviewees… was diversified…”</em> (PDF p.&nbsp;25)</p>
+</blockquote>
+</section>
+<p><strong>FAQ prompts (answer in bullets):</strong> - When is snowball sampling defensible? - What is the main risk (in plain English)? - What is one credible mitigation strategy? Is saturation point used as a vague invocation?</p>
+</section>
+</section>
+<section id="qualitative-interviews-sampling-faqs-answered" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="qualitative-interviews-sampling-faqs-answered"><span class="header-section-number">2.5</span> 4.1 Qualitative interviews: sampling FAQs (answered)</h2>
+<section id="exemplar-non-probability-snowball-sampling-with-limitations" class="level3 callout-example" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="exemplar-non-probability-snowball-sampling-with-limitations"><span class="header-section-number">2.5.1</span> Exemplar — Non-probability / snowball sampling (with limitations)</h3>
+<p><strong>Source:</strong> <em>Indonesia’s Village Law: Policy Implementation</em>, sampling rationale (PDF p.&nbsp;25).</p>
+<blockquote class="blockquote">
+<p><em>“The most appropriate sampling procedures were those identifying the key political actors… This led to ‘non-probability’ sampling… A snowball/chain-referral sampling… was predominantly utilised… as the population of interest was not fully visible at the initial stage of the fieldwork…”</em> (p.&nbsp;25)</p>
+</blockquote>
+</section>
+<p>Below are <strong>practical answers</strong> to the most common sampling questions that arise when writing interview-based Methods chapters.</p>
+<section id="faq-1-when-is-snowball-sampling-defensible" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="faq-1-when-is-snowball-sampling-defensible"><span class="header-section-number">2.5.2</span> FAQ 1 — When is snowball sampling defensible?</h3>
+<p>Snowball sampling is defensible when: - the population of interest is <strong>not fully observable ex ante</strong> (e.g.&nbsp;elites, informal actors, practitioners), - access depends on <strong>gatekeepers or professional networks</strong>, - the research aims to understand <strong>processes, experiences, or mechanisms</strong>, rather than estimate population parameters.</p>
+<p>In these cases, the goal is <em>informational richness</em>, not statistical representativeness.</p>
+</section>
+<section id="faq-2-what-is-the-main-risk-in-plain-english" class="level3" data-number="2.5.3">
+<h3 data-number="2.5.3" class="anchored" data-anchor-id="faq-2-what-is-the-main-risk-in-plain-english"><span class="header-section-number">2.5.3</span> FAQ 2 — What is the main risk (in plain English)?</h3>
+<p>The main risk is <strong>selection bias</strong>: - interviewees may refer you to people who think similarly, - dissenting or marginal voices may be under-represented.</p>
+<p>This limits the <strong>scope of claims</strong> you can make. It does <em>not</em> invalidate the research, provided the limitation is acknowledged.</p>
+</section>
+<section id="faq-3-what-does-saturation-mean-in-practice" class="level3" data-number="2.5.4">
+<h3 data-number="2.5.4" class="anchored" data-anchor-id="faq-3-what-does-saturation-mean-in-practice"><span class="header-section-number">2.5.4</span> FAQ 3 — What does “saturation” mean in practice?</h3>
+<p>In Master’s dissertations, <em>thematic saturation</em> refers to the point at which: - additional interviews no longer generate <strong>substantively new themes, explanations, or mechanisms</strong> relevant to the research question.</p>
+<p>Saturation is <strong>not</strong>: - a fixed number of interviews, - proof of completeness, - a substitute for justification.</p>
+<p>It is a <strong>supporting observation</strong>, not a requirement.</p>
+</section>
+<section id="faq-4-when-is-it-acceptable-not-to-claim-saturation" class="level3" data-number="2.5.5">
+<h3 data-number="2.5.5" class="anchored" data-anchor-id="faq-4-when-is-it-acceptable-not-to-claim-saturation"><span class="header-section-number">2.5.5</span> FAQ 4 — When is it acceptable <em>not</em> to claim saturation?</h3>
+<p>It is entirely acceptable <em>not</em> to claim saturation when: - access or time constraints limit further interviews, - the study is exploratory, - the aim is to capture <strong>key perspectives or roles</strong>, rather than exhaust a population.</p>
+<p>In these cases, clarity about <em>coverage</em> is more important than invoking saturation.</p>
+</section>
+<section id="faq-5-what-is-one-credible-mitigation-strategy" class="level3" data-number="2.5.6">
+<h3 data-number="2.5.6" class="anchored" data-anchor-id="faq-5-what-is-one-credible-mitigation-strategy"><span class="header-section-number">2.5.6</span> FAQ 5 — What is one credible mitigation strategy?</h3>
+<p>Credible mitigation strategies include: - diversifying entry points for snowball sampling, - deliberately interviewing actors with <strong>different institutional roles or viewpoints</strong>, - triangulating interviews with <strong>documents, policy texts, or secondary data</strong>.</p>
+</section>
+<section id="model-paragraph-acceptable-at-masters-level" class="level3" data-number="2.5.7">
+<h3 data-number="2.5.7" class="anchored" data-anchor-id="model-paragraph-acceptable-at-masters-level"><span class="header-section-number">2.5.7</span> Model paragraph (acceptable at Master’s level)</h3>
+<blockquote class="blockquote">
+<p><em>“Interviews were conducted using a non-probability snowball sampling approach, appropriate given the limited visibility of the target population. Initial interviewees were selected to reflect different institutional roles, and subsequent referrals expanded coverage across perspectives. Data collection continued until no substantively new themes emerged in relation to implementation barriers, within the time and access constraints of the project. While the sample is not statistically representative, triangulation with documentary sources mitigates the risk of systematic bias.”</em></p>
+</blockquote>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Examiner perspective
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Examiners do not expect perfect samples. They look for <strong>judgement</strong>: whether the sampling choices are coherent, justified, and transparently linked to what the study can realistically achieve.</p>
+</div>
+</div>
+</section>
+<section id="quantitative-survey-sampling-less-common-but-high-stakes-when-used" class="level3" data-number="2.5.8">
+<h3 data-number="2.5.8" class="anchored" data-anchor-id="quantitative-survey-sampling-less-common-but-high-stakes-when-used"><span class="header-section-number">2.5.8</span> 4.2 Quantitative / survey sampling (less common, but high-stakes when used)</h3>
+<section id="exemplar-f-simple-random-sampling-and-what-it-implies" class="level4 callout-example" data-number="2.5.8.1">
+<h4 data-number="2.5.8.1" class="anchored" data-anchor-id="exemplar-f-simple-random-sampling-and-what-it-implies"><span class="header-section-number">2.5.8.1</span> Exemplar F — Simple random sampling (and what it implies)</h4>
+<p><strong>Source:</strong> <em>The contribution of social housing as physical capital… (Vienna)</em>, sampling and survey design (LE110 p.&nbsp;16).</p>
+<p><em>“A simple random sample… should represent the whole population… To keep the sampling error as small as possible a random sample selection was applied… meaning that every individual… had the same probability of being selected…”</em> (LE110, p.&nbsp;16)</p>
+</section>
+<p><strong>FAQ prompts (answer in bullets):</strong> - What claim is the author trying to support by saying “random sample”? - What would you need to check (practically) before making that claim? - If your sample is <em>not</em> random, what should you write instead?</p>
+</section>
+<section id="special-case-exemplar-commoning-beyond-capitalism-why-it-is-not-a-general-template" class="level3" data-number="2.5.9">
+<h3 data-number="2.5.9" class="anchored" data-anchor-id="special-case-exemplar-commoning-beyond-capitalism-why-it-is-not-a-general-template"><span class="header-section-number">2.5.9</span> 4.3 Special case exemplar: <em>Commoning beyond Capitalism</em> (why it is not a general template)</h3>
+<p>Some dissertations use a <strong>highly theory-driven qualitative approach</strong> and justify the methods through an explicit philosophical stance (e.g., critical realism). This can be excellent—but it is not always appropriate for every dissertation topic.</p>
+<section id="exemplar-g-theory-driven-interviewing-critical-realism-special-case" class="level4 callout-example" data-number="2.5.9.1">
+<h4 data-number="2.5.9.1" class="anchored" data-anchor-id="exemplar-g-theory-driven-interviewing-critical-realism-special-case"><span class="header-section-number">2.5.9.1</span> Exemplar G — Theory-driven interviewing + critical realism (special case)</h4>
+<p><strong>Source:</strong> Hill, S. (2019). <em>Commoning beyond Capitalism?</em>, methodology sections on interviewing and critical realism (LE382, pp.&nbsp;15–17).</p>
+<blockquote class="blockquote">
+<p><em>“Organisations are best understood ‘through the experience of the individual people’… so interviews… are useful… Semi-structured interviews were chosen…</em>” (LE382, p.&nbsp;15)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>“For the qualitative analysis, a critical realist method is utilised for two reasons: it does not have an ontologically reductive position and is theory-driven…”</em> (LE382, p.&nbsp;16)</p>
+</blockquote>
+</section>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Why this is a “special” exemplar
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This dissertation is a strong model <strong>when your research question requires deep theory-driven interpretation</strong> and you can sustain that coherence throughout the thesis.</p>
+<p>It is <em>not</em> a default template for more applied policy evaluation or data-constrained projects, where your Methods chapter should prioritise <strong>feasibility, access, and fit-for-purpose justification</strong>.</p>
+</div>
+</div>
+<p><strong>Your task (sampling paragraph draft):</strong> Write a 120–170 word sampling subsection for <em>your</em> dissertation, using the structure:</p>
+<ol type="1">
+<li>Population / unit of analysis<br>
+</li>
+<li>Sampling approach (and why)<br>
+</li>
+<li>Target sample size (and why)<br>
+</li>
+<li>Recruitment / access plan<br>
+</li>
+<li>Limitations + mitigation</li>
+</ol>
+<hr>
+
+
+<!-- -->
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Data Management and Methods"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Camilo Calderon"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2026-02-01"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-depth: 2</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">    number-sections: true</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu"># Introduction</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>This workshop focuses on **how to write** the *Data Management and Methods* chapter of your dissertation.\</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>It is not a research methods lecture. Instead, it addresses the **practical writing decisions** examiners expect to see when assessing whether your research design is credible, feasible, and well-justified.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>::: callout-important</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Core message</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>A strong Methods chapter answers **“how”** and **“why this way”**,\</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>not **“what does it mean.”**</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why this chapter matters</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>The Methods chapter explains **how your research is carried out** and **why the chosen approach is appropriate** for answering your research question. Its primary purpose is to demonstrate:</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>clarity about what data can realistically be collected,</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>justification for methodological choices,</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>awareness of the implications and limitations of those choices.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>Unlike the literature review, this chapter is **less analytical and more justificatory**. However, it still requires *judgement*: different choices would lead to different types of evidence, results, and conclusions.</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu">## From broad choices to specific decisions: the research onion</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>A useful way to think about this chapter is to move from **broad to specific decisions**, often illustrated through the "*research onion"*:</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>overall research approach (qualitative, quantitative, mixed methods),</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>data sources and collection strategies,</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>sampling or case selection,</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>analytical tools and procedures.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>The key point is not to reproduce the diagram, but to show that your methods are the **result of a sequence of informed decisions**, not arbitrary preferences.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="fu">## Practical takeaway</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>You are not expected to use the most advanced method available.\</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>You are expected to use a method that is **fit for your question and your data constraints**.</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why some supervisors start with Methods</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>In practice, many supervisors prefer to discuss the *Data Management and Methods* chapter early in the dissertation process. The reason is simple:</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; The data you can collect determines the questions you can credibly answer.</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>Starting with this chapter helps to: - clarify what is feasible within time and access constraints, - avoid designing questions that cannot be answered with available data, - ensure early alignment between objectives, data, and methods.</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>This workshop adopts that same logic.</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="fu">## What this workshop will do</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>Using **exemplars from previous Master’s dissertations**, you will:</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>examine how students justify their methodological choices,</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>identify good and weak practices in methods writing,</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>reflect on biases towards familiar methods,</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>learn how to explain limitations without undermining your project.</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>The focus throughout is on **writing a credible Methods chapter**, not on learning new techniques.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>::: callout-tip</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="fu">## Think like an examiner</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>An examiner may disagree with your choices and still award high marks if your methods are **clear, justified, and appropriate**.</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="fu"># Exercises (Exemplar-based)</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="fu">## How to use the exemplars</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>Read each excerpt as if you were assessing a dissertation.</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>Your job is to extract **writing moves**: - What decision is being made? - How is it justified? - What is stated vs what is assumed?</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="fu">## Exercise 2 — Method-choice bias ("methods I know" vs "methods my question needs")</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>A common weakness in Methods chapters is **method myopia**: choosing the method you feel comfortable with, then searching for a justification afterwards. The goal of this exercise is to recognise that bias and replace it with **fit-for-purpose choice**.</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="fu">### Exemplar A — Case study + multiple sources (pragmatic fit)</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>**Source:** *Smart City Mission in India: case of Warangal*, Methods/Data section (LE334, p. 17).</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“This case study research is based on an examination of socio-economic data sets on Warangal, an analysis of planning documents, fifteen semi-structured interviews of local government officials and city residents. Both primary data and secondary data was utilised to obtain findings for the above-mentioned research questions.”*</span></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>**What to notice**: the author commits early to **multiple data sources** because a single method would miss key dimensions (policy design, implementation, lived experience).</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="fu">### Exemplar B — Mixed methods + elite interviews (problem-driven choice)</span></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>**Source:** *Indonesia’s Village Law: Policy Implementation*, Research Methodology (LE379 pp. 24–26).</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“To investigate the plausibility of the Village Law in meeting its main objectives, this study adopts a ‘grounded theory’, and mixed methods, case-study approach… Semi-structured, in-depth elite interviews were utilised… \[to\] give in-depth insights, moving beyond the accounts of existing literature, evaluations and official documents.”* (PDF p. 24)</span></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“The data collection method of the dissertation is a combination of: (i) Analysis of secondary qualitative and quantitative data… \[and\] (ii) Collection and analysis of primary data obtained from twenty in-depth and semi-structured elite interviews…”* (PDF p. 26)</span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>**Your task (write short answers):** 1. For each exemplar (A and B), explain why the *decisions* were made (e.g., “case study + triangulation”, “mixed methods + elite interviews”). 2. Identify **weak** student rationale and discuss whether it can be enhanced or discarded.</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>::: callout-tip</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="fu">## What examiners reward</span></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>Examiners reward method choice that is **driven by the research problem**, not by the researcher’s comfort zone.</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="fu">## Exercise 3 — Alignment + justification + relevance (methods must *do work*)</span></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>A Methods chapter should make it easy for the reader to see that each element of the design has a purpose. This is about three things at once:</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Alignment:** does it answer the research question?</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Justification:** why this method, not a nearby alternative?</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Relevance:** is any part of the Methods section “dead weight”?</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a><span class="fu">### Exemplar C — Why *process-tracing* (not “just interviews”)</span></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>**Source:** *Indonesia’s Village Law: Policy Implementation*, analysis strategy and triangulation (LE379, p. 25).</span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“The data gathered has been analysed via process-tracing… Process-tracing is an appropriate tool in theory testing and theory development… Patterns within the answers of interviewees were matched… and were then triangulated with secondary data.”* (PDF p. 25)</span></span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="fu">### Exemplar D — Why GIS + planning documents (not “data for data’s sake”)</span></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>**Source:** *Smart City Mission in India: case of Warangal*, data sources and analytical tools (LE334 p. 17).</span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“These documents have been collected to analyse… the way authorities are making an effort to utilise such ‘Smart’ solutions… The data… is analysed digitally with the help of Geographic Information System (GIS) software such as QGIS and Google Earth. Maps… assisted in comprehending the variations… and helped the researcher attain a precise geographical perspective…”*</span></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a>**Your task (table + short paragraph):**</span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a>Create a mini mapping table for **one** of the exemplars (C or D):</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Method element <span class="pp">|</span> What question/decision it answers <span class="pp">|</span> Why this (justification) <span class="pp">|</span> What would be irrelevant here? <span class="pp">|</span></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a><span class="pp">|------------------|------------------|------------------|------------------|</span></span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="fu">## Typical weak Methods writing</span></span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a>::: callout-warning</span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a>Students often describe their tools (e.g., “I used interviews”, “I used GIS”) but do not explain what those tools *allow them to conclude* and what they *cannot* conclude.</span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a><span class="fu">## Exercise 4 — Sampling FAQ (qualitative, quantitative, and the “special case”)</span></span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a>Most dissertations on this programme involve **interviews** (often semi-structured). Some use surveys. Others use documentary/policy sources. The sampling logic must be explicit because sampling determines what your evidence can and cannot speak about.</span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4.1 Qualitative interviews (typical pattern on the programme)</span></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Exemplar E — Non-probability / snowball sampling (with limitations)</span></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a>**Source:** *Indonesia’s Village Law: Policy Implementation*, sampling rationale (PDF p. 25). fileciteturn2file0</span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“The most appropriate sampling procedures were those identifying the key political actors… This led to ‘non-probability’ sampling… A snowball/chain-referral sampling… was predominantly utilised… as the population of interest was not fully visible at the initial stage of the fieldwork…*” (PDF p. 25)</span></span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“Non-probability sampling also has limitations… \[it\] will not be representative… To address this, the selection of initial interviewees… was diversified…”* (PDF p. 25)</span></span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a>**FAQ prompts (answer in bullets):** - When is snowball sampling defensible? - What is the main risk (in plain English)? - What is one credible mitigation strategy? Is saturation point used as a vague invocation?</span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a><span class="fu">## 4.1 Qualitative interviews: sampling FAQs (answered)</span></span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a><span class="fu">### Exemplar — Non-probability / snowball sampling (with limitations)</span></span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a>**Source:** *Indonesia’s Village Law: Policy Implementation*, sampling rationale (PDF p. 25).</span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“The most appropriate sampling procedures were those identifying the key political actors… This led to ‘non-probability’ sampling… A snowball/chain-referral sampling… was predominantly utilised… as the population of interest was not fully visible at the initial stage of the fieldwork…”* (p. 25)</span></span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a>Below are **practical answers** to the most common sampling questions that arise when writing interview-based Methods chapters.</span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a><span class="fu">### FAQ 1 — When is snowball sampling defensible?</span></span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a>Snowball sampling is defensible when: - the population of interest is **not fully observable ex ante** (e.g. elites, informal actors, practitioners), - access depends on **gatekeepers or professional networks**, - the research aims to understand **processes, experiences, or mechanisms**, rather than estimate population parameters.</span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a>In these cases, the goal is *informational richness*, not statistical representativeness.</span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a><span class="fu">### FAQ 2 — What is the main risk (in plain English)?</span></span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a>The main risk is **selection bias**: - interviewees may refer you to people who think similarly, - dissenting or marginal voices may be under-represented.</span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a>This limits the **scope of claims** you can make. It does *not* invalidate the research, provided the limitation is acknowledged.</span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a><span class="fu">### FAQ 3 — What does “saturation” mean in practice?</span></span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a>In Master’s dissertations, *thematic saturation* refers to the point at which: - additional interviews no longer generate **substantively new themes, explanations, or mechanisms** relevant to the research question.</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>Saturation is **not**: - a fixed number of interviews, - proof of completeness, - a substitute for justification.</span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a>It is a **supporting observation**, not a requirement.</span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a><span class="fu">### FAQ 4 — When is it acceptable *not* to claim saturation?</span></span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a>It is entirely acceptable *not* to claim saturation when: - access or time constraints limit further interviews, - the study is exploratory, - the aim is to capture **key perspectives or roles**, rather than exhaust a population.</span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a>In these cases, clarity about *coverage* is more important than invoking saturation.</span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a><span class="fu">### FAQ 5 — What is one credible mitigation strategy?</span></span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a>Credible mitigation strategies include: - diversifying entry points for snowball sampling, - deliberately interviewing actors with **different institutional roles or viewpoints**, - triangulating interviews with **documents, policy texts, or secondary data**.</span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a><span class="fu">### Model paragraph (acceptable at Master’s level)</span></span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“Interviews were conducted using a non-probability snowball sampling approach, appropriate given the limited visibility of the target population. Initial interviewees were selected to reflect different institutional roles, and subsequent referrals expanded coverage across perspectives. Data collection continued until no substantively new themes emerged in relation to implementation barriers, within the time and access constraints of the project. While the sample is not statistically representative, triangulation with documentary sources mitigates the risk of systematic bias.”*</span></span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a><span class="fu">## Examiner perspective</span></span>
+<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a>Examiners do not expect perfect samples. They look for **judgement**: whether the sampling choices are coherent, justified, and transparently linked to what the study can realistically achieve.</span>
+<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4.2 Quantitative / survey sampling (less common, but high-stakes when used)</span></span>
+<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Exemplar F — Simple random sampling (and what it implies)</span></span>
+<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a>**Source:** *The contribution of social housing as physical capital… (Vienna)*, sampling and survey design (LE110 p. 16).</span>
+<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a>*“A simple random sample… should represent the whole population… To keep the sampling error as small as possible a random sample selection was applied… meaning that every individual… had the same probability of being selected…”* (LE110, p. 16)</span>
+<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a>**FAQ prompts (answer in bullets):** - What claim is the author trying to support by saying “random sample”? - What would you need to check (practically) before making that claim? - If your sample is *not* random, what should you write instead?</span>
+<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4.3 Special case exemplar: *Commoning beyond Capitalism* (why it is not a general template)</span></span>
+<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a>Some dissertations use a **highly theory-driven qualitative approach** and justify the methods through an explicit philosophical stance (e.g., critical realism). This can be excellent—but it is not always appropriate for every dissertation topic.</span>
+<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a>::: callout-example</span>
+<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Exemplar G — Theory-driven interviewing + critical realism (special case)</span></span>
+<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a>**Source:** Hill, S. (2019). *Commoning beyond Capitalism?*, methodology sections on interviewing and critical realism (LE382, pp. 15–17).</span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“Organisations are best understood ‘through the experience of the individual people’… so interviews… are useful… Semi-structured interviews were chosen…*” (LE382, p. 15)</span></span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *“For the qualitative analysis, a critical realist method is utilised for two reasons: it does not have an ontologically reductive position and is theory-driven…”* (LE382, p. 16)</span></span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why this is a “special” exemplar</span></span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a>This dissertation is a strong model **when your research question requires deep theory-driven interpretation** and you can sustain that coherence throughout the thesis.</span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a>It is *not* a default template for more applied policy evaluation or data-constrained projects, where your Methods chapter should prioritise **feasibility, access, and fit-for-purpose justification**.</span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a>**Your task (sampling paragraph draft):** Write a 120–170 word sampling subsection for *your* dissertation, using the structure:</span>
+<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Population / unit of analysis\</span>
+<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Sampling approach (and why)\</span>
+<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>Target sample size (and why)\</span>
+<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>Recruitment / access plan\</span>
+<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a><span class="ss">5.  </span>Limitations + mitigation</span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

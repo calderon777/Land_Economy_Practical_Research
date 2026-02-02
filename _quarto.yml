@@ -11,8 +11,9 @@ website:
     search: true
     contents:
       - index.qmd
-      - literature review.qmd
       - research objective.qmd
+      - literature review.qmd
+      - Data_Management_and_Methods.qmd
 
 # Global metadata (applies to all pages unless overridden)
 lang: en

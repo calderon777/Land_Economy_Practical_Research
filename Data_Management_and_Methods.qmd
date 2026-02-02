@@ -1,0 +1,270 @@
+---
+title: "Data Management and Methods"
+author: "Camilo Calderon"
+date: "2026-02-01"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+---
+
+# Introduction
+
+This workshop focuses on **how to write** the *Data Management and Methods* chapter of your dissertation.\
+It is not a research methods lecture. Instead, it addresses the **practical writing decisions** examiners expect to see when assessing whether your research design is credible, feasible, and well-justified.
+
+::: callout-important
+## Core message
+
+A strong Methods chapter answers **“how”** and **“why this way”**,\
+not **“what does it mean.”**
+:::
+
+## Why this chapter matters
+
+The Methods chapter explains **how your research is carried out** and **why the chosen approach is appropriate** for answering your research question. Its primary purpose is to demonstrate:
+
+-   clarity about what data can realistically be collected,
+-   justification for methodological choices,
+-   awareness of the implications and limitations of those choices.
+
+Unlike the literature review, this chapter is **less analytical and more justificatory**. However, it still requires *judgement*: different choices would lead to different types of evidence, results, and conclusions.
+
+## From broad choices to specific decisions: the research onion
+
+A useful way to think about this chapter is to move from **broad to specific decisions**, often illustrated through the "*research onion"*:
+
+-   overall research approach (qualitative, quantitative, mixed methods),
+-   data sources and collection strategies,
+-   sampling or case selection,
+-   analytical tools and procedures.
+
+The key point is not to reproduce the diagram, but to show that your methods are the **result of a sequence of informed decisions**, not arbitrary preferences.
+
+::: callout-note
+## Practical takeaway
+
+You are not expected to use the most advanced method available.\
+You are expected to use a method that is **fit for your question and your data constraints**.
+:::
+
+## Why some supervisors start with Methods
+
+In practice, many supervisors prefer to discuss the *Data Management and Methods* chapter early in the dissertation process. The reason is simple:
+
+> The data you can collect determines the questions you can credibly answer.
+
+Starting with this chapter helps to: - clarify what is feasible within time and access constraints, - avoid designing questions that cannot be answered with available data, - ensure early alignment between objectives, data, and methods.
+
+This workshop adopts that same logic.
+
+## What this workshop will do
+
+Using **exemplars from previous Master’s dissertations**, you will:
+
+-   examine how students justify their methodological choices,
+-   identify good and weak practices in methods writing,
+-   reflect on biases towards familiar methods,
+-   learn how to explain limitations without undermining your project.
+
+The focus throughout is on **writing a credible Methods chapter**, not on learning new techniques.
+
+::: callout-tip
+## Think like an examiner
+
+An examiner may disagree with your choices and still award high marks if your methods are **clear, justified, and appropriate**.
+:::
+
+# Exercises (Exemplar-based)
+
+::: callout-note
+## How to use the exemplars
+
+Read each excerpt as if you were assessing a dissertation.
+
+Your job is to extract **writing moves**: - What decision is being made? - How is it justified? - What is stated vs what is assumed?
+:::
+
+## Exercise 2 — Method-choice bias ("methods I know" vs "methods my question needs")
+
+A common weakness in Methods chapters is **method myopia**: choosing the method you feel comfortable with, then searching for a justification afterwards. The goal of this exercise is to recognise that bias and replace it with **fit-for-purpose choice**.
+
+::: callout-example
+### Exemplar A — Case study + multiple sources (pragmatic fit)
+
+**Source:** *Smart City Mission in India: case of Warangal*, Methods/Data section (LE334, p. 17).
+
+> *“This case study research is based on an examination of socio-economic data sets on Warangal, an analysis of planning documents, fifteen semi-structured interviews of local government officials and city residents. Both primary data and secondary data was utilised to obtain findings for the above-mentioned research questions.”*
+
+**What to notice**: the author commits early to **multiple data sources** because a single method would miss key dimensions (policy design, implementation, lived experience).
+:::
+
+::: callout-example
+### Exemplar B — Mixed methods + elite interviews (problem-driven choice)
+
+**Source:** *Indonesia’s Village Law: Policy Implementation*, Research Methodology (LE379 pp. 24–26).
+
+> *“To investigate the plausibility of the Village Law in meeting its main objectives, this study adopts a ‘grounded theory’, and mixed methods, case-study approach… Semi-structured, in-depth elite interviews were utilised… \[to\] give in-depth insights, moving beyond the accounts of existing literature, evaluations and official documents.”* (PDF p. 24)
+
+> *“The data collection method of the dissertation is a combination of: (i) Analysis of secondary qualitative and quantitative data… \[and\] (ii) Collection and analysis of primary data obtained from twenty in-depth and semi-structured elite interviews…”* (PDF p. 26)
+:::
+
+**Your task (write short answers):** 1. For each exemplar (A and B), explain why the *decisions* were made (e.g., “case study + triangulation”, “mixed methods + elite interviews”). 2. Identify **weak** student rationale and discuss whether it can be enhanced or discarded.
+
+::: callout-tip
+## What examiners reward
+
+Examiners reward method choice that is **driven by the research problem**, not by the researcher’s comfort zone.
+:::
+
+## Exercise 3 — Alignment + justification + relevance (methods must *do work*)
+
+A Methods chapter should make it easy for the reader to see that each element of the design has a purpose. This is about three things at once:
+
+-   **Alignment:** does it answer the research question?
+-   **Justification:** why this method, not a nearby alternative?
+-   **Relevance:** is any part of the Methods section “dead weight”?
+
+::: callout-example
+### Exemplar C — Why *process-tracing* (not “just interviews”)
+
+**Source:** *Indonesia’s Village Law: Policy Implementation*, analysis strategy and triangulation (LE379, p. 25).
+
+> *“The data gathered has been analysed via process-tracing… Process-tracing is an appropriate tool in theory testing and theory development… Patterns within the answers of interviewees were matched… and were then triangulated with secondary data.”* (PDF p. 25)
+:::
+
+::: callout-example
+### Exemplar D — Why GIS + planning documents (not “data for data’s sake”)
+
+**Source:** *Smart City Mission in India: case of Warangal*, data sources and analytical tools (LE334 p. 17).
+
+> *“These documents have been collected to analyse… the way authorities are making an effort to utilise such ‘Smart’ solutions… The data… is analysed digitally with the help of Geographic Information System (GIS) software such as QGIS and Google Earth. Maps… assisted in comprehending the variations… and helped the researcher attain a precise geographical perspective…”*
+:::
+
+**Your task (table + short paragraph):**
+
+Create a mini mapping table for **one** of the exemplars (C or D):
+
+| Method element | What question/decision it answers | Why this (justification) | What would be irrelevant here? |
+|------------------|------------------|------------------|------------------|
+
+## Typical weak Methods writing
+
+::: callout-warning
+Students often describe their tools (e.g., “I used interviews”, “I used GIS”) but do not explain what those tools *allow them to conclude* and what they *cannot* conclude.
+:::
+
+## Exercise 4 — Sampling FAQ (qualitative, quantitative, and the “special case”)
+
+Most dissertations on this programme involve **interviews** (often semi-structured). Some use surveys. Others use documentary/policy sources. The sampling logic must be explicit because sampling determines what your evidence can and cannot speak about.
+
+### 4.1 Qualitative interviews (typical pattern on the programme)
+
+::: callout-example
+#### Exemplar E — Non-probability / snowball sampling (with limitations)
+
+**Source:** *Indonesia’s Village Law: Policy Implementation*, sampling rationale (PDF p. 25). fileciteturn2file0
+
+> *“The most appropriate sampling procedures were those identifying the key political actors… This led to ‘non-probability’ sampling… A snowball/chain-referral sampling… was predominantly utilised… as the population of interest was not fully visible at the initial stage of the fieldwork…*” (PDF p. 25)
+
+> *“Non-probability sampling also has limitations… \[it\] will not be representative… To address this, the selection of initial interviewees… was diversified…”* (PDF p. 25)
+:::
+
+**FAQ prompts (answer in bullets):** - When is snowball sampling defensible? - What is the main risk (in plain English)? - What is one credible mitigation strategy? Is saturation point used as a vague invocation?
+
+## 4.1 Qualitative interviews: sampling FAQs (answered)
+
+::: callout-example
+### Exemplar — Non-probability / snowball sampling (with limitations)
+
+**Source:** *Indonesia’s Village Law: Policy Implementation*, sampling rationale (PDF p. 25).
+
+> *“The most appropriate sampling procedures were those identifying the key political actors… This led to ‘non-probability’ sampling… A snowball/chain-referral sampling… was predominantly utilised… as the population of interest was not fully visible at the initial stage of the fieldwork…”* (p. 25)
+:::
+
+Below are **practical answers** to the most common sampling questions that arise when writing interview-based Methods chapters.
+
+### FAQ 1 — When is snowball sampling defensible?
+
+Snowball sampling is defensible when: - the population of interest is **not fully observable ex ante** (e.g. elites, informal actors, practitioners), - access depends on **gatekeepers or professional networks**, - the research aims to understand **processes, experiences, or mechanisms**, rather than estimate population parameters.
+
+In these cases, the goal is *informational richness*, not statistical representativeness.
+
+### FAQ 2 — What is the main risk (in plain English)?
+
+The main risk is **selection bias**: - interviewees may refer you to people who think similarly, - dissenting or marginal voices may be under-represented.
+
+This limits the **scope of claims** you can make. It does *not* invalidate the research, provided the limitation is acknowledged.
+
+### FAQ 3 — What does “saturation” mean in practice?
+
+In Master’s dissertations, *thematic saturation* refers to the point at which: - additional interviews no longer generate **substantively new themes, explanations, or mechanisms** relevant to the research question.
+
+Saturation is **not**: - a fixed number of interviews, - proof of completeness, - a substitute for justification.
+
+It is a **supporting observation**, not a requirement.
+
+### FAQ 4 — When is it acceptable *not* to claim saturation?
+
+It is entirely acceptable *not* to claim saturation when: - access or time constraints limit further interviews, - the study is exploratory, - the aim is to capture **key perspectives or roles**, rather than exhaust a population.
+
+In these cases, clarity about *coverage* is more important than invoking saturation.
+
+### FAQ 5 — What is one credible mitigation strategy?
+
+Credible mitigation strategies include: - diversifying entry points for snowball sampling, - deliberately interviewing actors with **different institutional roles or viewpoints**, - triangulating interviews with **documents, policy texts, or secondary data**.
+
+### Model paragraph (acceptable at Master’s level)
+
+> *“Interviews were conducted using a non-probability snowball sampling approach, appropriate given the limited visibility of the target population. Initial interviewees were selected to reflect different institutional roles, and subsequent referrals expanded coverage across perspectives. Data collection continued until no substantively new themes emerged in relation to implementation barriers, within the time and access constraints of the project. While the sample is not statistically representative, triangulation with documentary sources mitigates the risk of systematic bias.”*
+
+::: callout-note
+## Examiner perspective
+
+Examiners do not expect perfect samples. They look for **judgement**: whether the sampling choices are coherent, justified, and transparently linked to what the study can realistically achieve.
+:::
+
+### 4.2 Quantitative / survey sampling (less common, but high-stakes when used)
+
+::: callout-example
+#### Exemplar F — Simple random sampling (and what it implies)
+
+**Source:** *The contribution of social housing as physical capital… (Vienna)*, sampling and survey design (LE110 p. 16).
+
+*“A simple random sample… should represent the whole population… To keep the sampling error as small as possible a random sample selection was applied… meaning that every individual… had the same probability of being selected…”* (LE110, p. 16)
+:::
+
+**FAQ prompts (answer in bullets):** - What claim is the author trying to support by saying “random sample”? - What would you need to check (practically) before making that claim? - If your sample is *not* random, what should you write instead?
+
+### 4.3 Special case exemplar: *Commoning beyond Capitalism* (why it is not a general template)
+
+Some dissertations use a **highly theory-driven qualitative approach** and justify the methods through an explicit philosophical stance (e.g., critical realism). This can be excellent—but it is not always appropriate for every dissertation topic.
+
+::: callout-example
+#### Exemplar G — Theory-driven interviewing + critical realism (special case)
+
+**Source:** Hill, S. (2019). *Commoning beyond Capitalism?*, methodology sections on interviewing and critical realism (LE382, pp. 15–17).
+
+> *“Organisations are best understood ‘through the experience of the individual people’… so interviews… are useful… Semi-structured interviews were chosen…*” (LE382, p. 15)
+
+> *“For the qualitative analysis, a critical realist method is utilised for two reasons: it does not have an ontologically reductive position and is theory-driven…”* (LE382, p. 16)
+:::
+
+::: callout-note
+## Why this is a “special” exemplar
+
+This dissertation is a strong model **when your research question requires deep theory-driven interpretation** and you can sustain that coherence throughout the thesis.
+
+It is *not* a default template for more applied policy evaluation or data-constrained projects, where your Methods chapter should prioritise **feasibility, access, and fit-for-purpose justification**.
+:::
+
+**Your task (sampling paragraph draft):** Write a 120–170 word sampling subsection for *your* dissertation, using the structure:
+
+1.  Population / unit of analysis\
+2.  Sampling approach (and why)\
+3.  Target sample size (and why)\
+4.  Recruitment / access plan\
+5.  Limitations + mitigation
+
+------------------------------------------------------------------------
