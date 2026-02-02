@@ -93,7 +93,7 @@ A common weakness in Methods chapters is **method myopia**: choosing the method 
 ::: callout-example
 ### Exemplar A — Case study + multiple sources (pragmatic fit)
 
-**Source:** *Smart City Mission in India: case of Warangal*, Methods/Data section (LE334, p. 17).
+**Source:** *Smart City Mission in India: case of Warangal*, Methods/Data section (LE334, p. 13).
 
 > *“This case study research is based on an examination of socio-economic data sets on Warangal, an analysis of planning documents, fifteen semi-structured interviews of local government officials and city residents. Both primary data and secondary data was utilised to obtain findings for the above-mentioned research questions.”*
 
